@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/winsweep_plushie",
+  "textures": {
+    "all": "plushified:block/winsweep_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/winsweep_plushie"
+  },
+  "render_type": "translusent"
+}

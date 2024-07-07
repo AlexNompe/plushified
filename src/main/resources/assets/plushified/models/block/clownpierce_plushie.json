@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/clownpierce_plushie",
+  "textures": {
+    "all": "plushified:block/clownpierce_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/clownpierce_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/brim_plushie",
+  "textures": {
+    "all": "plushified:block/brim_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/brim_plushie"
+  },
+  "render_type": "translusent"
+}

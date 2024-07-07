@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/lampcat_plushie",
+  "textures": {
+    "all": "plushified:block/lampcat_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/lampcat_plushie"
+  },
+  "render_type": "translusent"
+}

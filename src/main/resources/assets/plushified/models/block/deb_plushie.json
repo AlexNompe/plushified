@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/deb_plushie",
+  "textures": {
+    "all": "plushified:block/deb_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/deb_plushie"
+  },
+  "render_type": "translusent"
+}

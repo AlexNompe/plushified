@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/zmeevig_plushie",
+  "textures": {
+    "all": "plushified:block/zmeevig_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/zmeevig_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/jeremi_plushie",
+  "textures": {
+    "all": "plushified:block/jeremi_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/jeremi_plushie"
+  },
+  "render_type": "translusent"
+}

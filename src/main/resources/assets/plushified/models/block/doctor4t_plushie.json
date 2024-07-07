@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/doctor4t_plushie",
+  "textures": {
+    "all": "plushified:block/doctor4t_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/doctor4t_plushie"
+  },
+  "render_type": "translusent"
+}

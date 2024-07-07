@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "plushified",
+	"version": "${version}",
+	"name": "Plushified",
+	"description": "PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES PLUSHIES",
+	"authors": [
+		"AlexNompe"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/plushified/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.plushified.Plushified"
+		],
+		"client": [
+			"net.plushified.PlushifiedClient"
+		],
+		"fabric-datagen": [
+			"net.plushified.PlushifiedDataGenerator"
+		]
+	},
+	"mixins": [
+		"plushified.mixins.json",
+		{
+			"config": "plushified.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"geckolib": "4.5.6"
+	}
+}

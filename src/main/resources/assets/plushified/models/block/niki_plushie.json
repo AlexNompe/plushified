@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/niki_plushie",
+  "textures": {
+    "all": "plushified:block/niki_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/niki_plushie"
+  },
+  "render_type": "translusent"
+}

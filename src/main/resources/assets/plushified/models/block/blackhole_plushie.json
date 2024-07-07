@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/blackhole_plushie",
+  "textures": {
+    "all": "plushified:block/blackhole_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/blackhole_plushie"
+  },
+  "render_type": "translusent"
+}

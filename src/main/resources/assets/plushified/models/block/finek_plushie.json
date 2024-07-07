@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/finek_plushie",
+  "textures": {
+    "all": "plushified:block/finek_plushie",
+    "particle": "plushified:block/plushie_particle",
+    "0": "plushified:block/finek_plushie"
+  },
+  "render_type": "translusent"
+}
