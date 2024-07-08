@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/moddy_plushie",
-		"particle": "plushified:block/moddy_plushie",
-		"0": "plushified:block/moddy_plushie"
+		"0": "moddy_plushie"
 	},
 	"elements": [
 		{

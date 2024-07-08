@@ -37,12 +37,14 @@ public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider{
                 .add(FEREDEN_PLUSHIE)
                 .add(FINEK_PLUSHIE)
                 .add(GOOSE_PLUSHIE)
+                .add(JEREMI_PLUSHIE)
                 .add(LAMPCAT_PLUSHIE)
                 .add(LUX_PLUSHIE)
                 .add(MASK_PLUSHIE)
                 .add(MODDY_PLUSHIE)
                 .add(NIKI_PLUSHIE)
                 .add(NOVIKONY_PLUSHIE)
+                .add(NUROFEN_PLUSHIE)
                 .add(OBSI_PLUSHIE)
                 .add(PHILZA_PLUSHIE)
                 .add(PWGOOD_PLUSHIE)
@@ -57,8 +59,6 @@ public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider{
                 .add(VMUTED_PLUSHIE)
                 .add(WINSWEEP_PLUSHIE)
                 .add(ZMEEC_PLUSHIE)
-                .add(ZMEEVIG_PLUSHIE)
-                .add(JEREMI_PLUSHIE)
-                .add(NUROFEN_PLUSHIE);
+                .add(ZMEEVIG_PLUSHIE);
     }
 }

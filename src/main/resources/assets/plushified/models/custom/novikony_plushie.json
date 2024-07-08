@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/novikony_plushie",
-		"particle": "plushified:block/novikony_plushie",
-		"0": "plushified:block/novikony_plushie"
+		"0": "novikony_plushie"
 	},
 	"elements": [
 		{

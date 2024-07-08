@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/pwgood_plushie",
-		"particle": "plushified:block/pwgood_plushie",
-		"0": "plushified:block/pwgood_plushie"
+		"0": "pwgood_plushie"
 	},
 	"elements": [
 		{

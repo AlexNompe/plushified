@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/goose_plushie",
-		"particle": "plushified:block/goose_plushie",
-		"0": "plushified:block/goose_plushie"
+		"0": "goose_plushie"
 	},
 	"elements": [
 		{

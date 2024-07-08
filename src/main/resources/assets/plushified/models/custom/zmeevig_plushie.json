@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/zmeevig_plushie",
-		"particle": "plushified:block/zmeevig_plushie",
-		"0": "plushified:block/zmeevig_plushie"
+		"0": "zmeevig_plushie"
 	},
 	"elements": [
 		{

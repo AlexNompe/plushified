@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/squiddo_plushie",
-		"particle": "plushified:block/squiddo_plushie",
-		"0": "plushified:block/squiddo_plushie"
+		"0": "squiddo_plushie"
 	},
 	"elements": [
 		{

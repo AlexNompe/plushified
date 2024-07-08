@@ -2,9 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [80, 64],
 	"textures": {
-		"all": "plushified:block/ranboo_plushie",
-		"particle": "plushified:block/ranboo_plushie",
-		"0": "plushified:block/ranboo_plushie"
+		"0": "ranboo_plushie"
 	},
 	"elements": [
 		{
