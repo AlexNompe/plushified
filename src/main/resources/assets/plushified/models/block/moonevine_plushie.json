@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/moonevine_plushie",
+  "textures": {
+    "all": "plushified:block/moonevine_plushie",
+    "particle": "plushified:block/moonevine_plushie",
+    "0": "plushified:block/moonevine_plushie"
+  },
+  "render_type": "translusent"
+}

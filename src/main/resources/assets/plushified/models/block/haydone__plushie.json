@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/haydone__plushie",
+  "textures": {
+    "all": "plushified:block/haydone__plushie",
+    "particle": "plushified:block/haydone__plushie",
+    "0": "plushified:block/haydone__plushie"
+  },
+  "render_type": "translusent"
+}

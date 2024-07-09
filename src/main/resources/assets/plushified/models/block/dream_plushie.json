@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/dream_plushie",
+  "textures": {
+    "all": "plushified:block/dream_plushie",
+    "particle": "plushified:block/dream_plushie",
+    "0": "plushified:block/dream_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/georgenotfound_plushie",
+  "textures": {
+    "all": "plushified:block/georgenotfound_plushie",
+    "particle": "plushified:block/georgenotfound_plushie",
+    "0": "plushified:block/georgenotfound_plushie"
+  },
+  "render_type": "translusent"
+}

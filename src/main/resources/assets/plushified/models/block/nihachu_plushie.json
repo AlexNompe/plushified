@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/nihachu_plushie",
+  "textures": {
+    "all": "plushified:block/nihachu_plushie",
+    "particle": "plushified:block/nihachu_plushie",
+    "0": "plushified:block/nihachu_plushie"
+  },
+  "render_type": "translusent"
+}

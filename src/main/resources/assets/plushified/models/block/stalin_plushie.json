@@ -1,9 +1,0 @@
-{
-  "parent": "plushified:custom/stalin_plushie",
-  "textures": {
-    "all": "plushified:block/stalin_plushie",
-    "particle": "plushified:block/plushie_particle",
-    "0": "plushified:block/stalin_plushie"
-  },
-  "render_type": "translusent"
-}

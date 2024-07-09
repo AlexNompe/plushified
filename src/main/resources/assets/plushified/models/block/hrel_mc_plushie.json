@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/hrel_mc_plushie",
+  "textures": {
+    "all": "plushified:block/hrel_mc_plushie",
+    "particle": "plushified:block/hrel_mc_plushie",
+    "0": "plushified:block/hrel_mc_plushie"
+  },
+  "render_type": "translusent"
+}

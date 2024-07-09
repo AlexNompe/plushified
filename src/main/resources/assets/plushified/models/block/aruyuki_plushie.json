@@ -2,7 +2,7 @@
   "parent": "plushified:custom/aruyuki_plushie",
   "textures": {
     "all": "plushified:block/aruyuki_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/aruyuki_plushie",
     "0": "plushified:block/aruyuki_plushie"
   },
   "render_type": "translusent"

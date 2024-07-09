@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/magmustx_plushie",
+  "textures": {
+    "all": "plushified:block/magmustx_plushie",
+    "particle": "plushified:block/magmustx_plushie",
+    "0": "plushified:block/magmustx_plushie"
+  },
+  "render_type": "translusent"
+}

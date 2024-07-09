@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/kluv_v_plushie",
+  "textures": {
+    "all": "plushified:block/kluv_v_plushie",
+    "particle": "plushified:block/kluv_v_plushie",
+    "0": "plushified:block/kluv_v_plushie"
+  },
+  "render_type": "translusent"
+}

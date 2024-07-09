@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/krolikmun_plushie",
+  "textures": {
+    "all": "plushified:block/krolikmun_plushie",
+    "particle": "plushified:block/krolikmun_plushie",
+    "0": "plushified:block/krolikmun_plushie"
+  },
+  "render_type": "translusent"
+}

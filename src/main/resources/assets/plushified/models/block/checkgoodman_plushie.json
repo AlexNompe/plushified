@@ -2,7 +2,7 @@
   "parent": "plushified:custom/checkgoodman_plushie",
   "textures": {
     "all": "plushified:block/checkgoodman_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/checkgoodman_plushie",
     "0": "plushified:block/checkgoodman_plushie"
   },
   "render_type": "translusent"

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/alfedov_plushie",
+  "textures": {
+    "all": "plushified:block/alfedov_plushie",
+    "particle": "plushified:block/alfedov_plushie",
+    "0": "plushified:block/alfedov_plushie"
+  },
+  "render_type": "translusent"
+}

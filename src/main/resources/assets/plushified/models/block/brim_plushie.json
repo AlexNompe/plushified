@@ -2,7 +2,7 @@
   "parent": "plushified:custom/brim_plushie",
   "textures": {
     "all": "plushified:block/brim_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/brim_plushie",
     "0": "plushified:block/brim_plushie"
   },
   "render_type": "translusent"

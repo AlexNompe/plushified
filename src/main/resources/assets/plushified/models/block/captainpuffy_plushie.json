@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/captainpuffy_plushie",
+  "textures": {
+    "all": "plushified:block/captainpuffy_plushie",
+    "particle": "plushified:block/captainpuffy_plushie",
+    "0": "plushified:block/captainpuffy_plushie"
+  },
+  "render_type": "translusent"
+}

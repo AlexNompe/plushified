@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/ashswagg_plushie",
+  "textures": {
+    "all": "plushified:block/ashswagg_plushie",
+    "particle": "plushified:block/ashswagg_plushie",
+    "0": "plushified:block/ashswagg_plushie"
+  },
+  "render_type": "translusent"
+}

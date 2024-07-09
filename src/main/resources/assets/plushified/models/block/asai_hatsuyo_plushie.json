@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/asai_hatsuyo_plushie",
+  "textures": {
+    "all": "plushified:block/asai_hatsuyo_plushie",
+    "particle": "plushified:block/asai_hatsuyo_plushie",
+    "0": "plushified:block/asai_hatsuyo_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/ecorridor_plushie",
+  "textures": {
+    "all": "plushified:block/ecorridor_plushie",
+    "particle": "plushified:block/ecorridor_plushie",
+    "0": "plushified:block/ecorridor_plushie"
+  },
+  "render_type": "translusent"
+}

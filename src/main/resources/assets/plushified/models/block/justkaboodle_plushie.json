@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/justkaboodle_plushie",
+  "textures": {
+    "all": "plushified:block/justkaboodle_plushie",
+    "particle": "plushified:block/justkaboodle_plushie",
+    "0": "plushified:block/justkaboodle_plushie"
+  },
+  "render_type": "translusent"
+}

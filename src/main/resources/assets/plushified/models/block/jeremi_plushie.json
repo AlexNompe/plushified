@@ -2,7 +2,7 @@
   "parent": "plushified:custom/jeremi_plushie",
   "textures": {
     "all": "plushified:block/jeremi_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/jeremi_plushie",
     "0": "plushified:block/jeremi_plushie"
   },
   "render_type": "translusent"

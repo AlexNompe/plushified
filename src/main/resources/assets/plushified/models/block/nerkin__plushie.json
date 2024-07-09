@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/nerkin__plushie",
+  "textures": {
+    "all": "plushified:block/nerkin__plushie",
+    "particle": "plushified:block/nerkin__plushie",
+    "0": "plushified:block/nerkin__plushie"
+  },
+  "render_type": "translusent"
+}

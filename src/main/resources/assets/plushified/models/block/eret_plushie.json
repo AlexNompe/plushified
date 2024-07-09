@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/eret_plushie",
+  "textures": {
+    "all": "plushified:block/eret_plushie",
+    "particle": "plushified:block/eret_plushie",
+    "0": "plushified:block/eret_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -2,7 +2,7 @@
   "parent": "plushified:custom/obsi_plushie",
   "textures": {
     "all": "plushified:block/obsi_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/obsi_plushie",
     "0": "plushified:block/obsi_plushie"
   },
   "render_type": "translusent"

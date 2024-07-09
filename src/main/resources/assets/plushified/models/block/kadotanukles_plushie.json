@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/kadotanukles_plushie",
+  "textures": {
+    "all": "plushified:block/kadotanukles_plushie",
+    "particle": "plushified:block/kadotanukles_plushie",
+    "0": "plushified:block/kadotanukles_plushie"
+  },
+  "render_type": "translusent"
+}

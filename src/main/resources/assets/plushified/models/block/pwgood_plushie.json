@@ -2,7 +2,7 @@
   "parent": "plushified:custom/pwgood_plushie",
   "textures": {
     "all": "plushified:block/pwgood_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/pwgood_plushie",
     "0": "plushified:block/pwgood_plushie"
   },
   "render_type": "translusent"

@@ -2,7 +2,7 @@
   "parent": "plushified:custom/ranboo_plushie",
   "textures": {
     "all": "plushified:block/ranboo_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/ranboo_plushie",
     "0": "plushified:block/ranboo_plushie"
   },
   "render_type": "translusent"

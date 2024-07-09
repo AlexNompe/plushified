@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/makafolz_plushie",
+  "textures": {
+    "all": "plushified:block/makafolz_plushie",
+    "particle": "plushified:block/makafolz_plushie",
+    "0": "plushified:block/makafolz_plushie"
+  },
+  "render_type": "translusent"
+}

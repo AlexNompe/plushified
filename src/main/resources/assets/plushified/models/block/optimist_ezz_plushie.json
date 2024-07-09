@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/optimist_ezz_plushie",
+  "textures": {
+    "all": "plushified:block/optimist_ezz_plushie",
+    "particle": "plushified:block/optimist_ezz_plushie",
+    "0": "plushified:block/optimist_ezz_plushie"
+  },
+  "render_type": "translusent"
+}

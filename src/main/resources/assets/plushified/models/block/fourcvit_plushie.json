@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/fourcvit_plushie",
+  "textures": {
+    "all": "plushified:block/fourcvit_plushie",
+    "particle": "plushified:block/fourcvit_plushie",
+    "0": "plushified:block/fourcvit_plushie"
+  },
+  "render_type": "translusent"
+}

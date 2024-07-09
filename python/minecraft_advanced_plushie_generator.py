@@ -8,6 +8,7 @@ import os
 skin_path = os.path.realpath("minecraft_advanced_plushie_generator.py").replace(r"\python\minecraft_advanced_plushie_generator.py",r"\python\minecraft_player_skins")
 dir_path = os.path.realpath("minecraft_advanced_plushie_generator.py").replace(r"\python\minecraft_advanced_plushie_generator.py",r"\src\main\resources\assets\plushified\textures\block")
 
+
 def erase_part_image(im, box):
     for x in range(box[0], box[2]):
         for y in range(box[1], box[3]):

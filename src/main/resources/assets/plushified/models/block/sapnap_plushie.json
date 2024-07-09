@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/sapnap_plushie",
+  "textures": {
+    "all": "plushified:block/sapnap_plushie",
+    "particle": "plushified:block/sapnap_plushie",
+    "0": "plushified:block/sapnap_plushie"
+  },
+  "render_type": "translusent"
+}

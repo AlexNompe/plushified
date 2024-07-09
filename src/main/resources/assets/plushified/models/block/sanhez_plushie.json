@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/sanhez_plushie",
+  "textures": {
+    "all": "plushified:block/sanhez_plushie",
+    "particle": "plushified:block/sanhez_plushie",
+    "0": "plushified:block/sanhez_plushie"
+  },
+  "render_type": "translusent"
+}

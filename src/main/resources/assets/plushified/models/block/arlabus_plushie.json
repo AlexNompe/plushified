@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/arlabus_plushie",
+  "textures": {
+    "all": "plushified:block/arlabus_plushie",
+    "particle": "plushified:block/arlabus_plushie",
+    "0": "plushified:block/arlabus_plushie"
+  },
+  "render_type": "translusent"
+}

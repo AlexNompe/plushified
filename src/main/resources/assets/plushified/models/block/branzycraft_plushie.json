@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/branzycraft_plushie",
+  "textures": {
+    "all": "plushified:block/branzycraft_plushie",
+    "particle": "plushified:block/branzycraft_plushie",
+    "0": "plushified:block/branzycraft_plushie"
+  },
+  "render_type": "translusent"
+}

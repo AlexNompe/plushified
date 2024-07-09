@@ -2,7 +2,7 @@
   "parent": "plushified:custom/r4tmaid_plushie",
   "textures": {
     "all": "plushified:block/r4tmaid_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/r4tmaid_plushie",
     "0": "plushified:block/r4tmaid_plushie"
   },
   "render_type": "translusent"

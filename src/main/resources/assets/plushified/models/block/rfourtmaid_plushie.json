@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/rfourtmaid_plushie",
+  "textures": {
+    "all": "plushified:block/rfourtmaid_plushie",
+    "particle": "plushified:block/rfourtmaid_plushie",
+    "0": "plushified:block/rfourtmaid_plushie"
+  },
+  "render_type": "translusent"
+}

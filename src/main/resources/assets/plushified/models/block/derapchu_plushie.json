@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/derapchu_plushie",
+  "textures": {
+    "all": "plushified:block/derapchu_plushie",
+    "particle": "plushified:block/derapchu_plushie",
+    "0": "plushified:block/derapchu_plushie"
+  },
+  "render_type": "translusent"
+}

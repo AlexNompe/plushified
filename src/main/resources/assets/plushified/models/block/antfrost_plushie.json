@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/antfrost_plushie",
+  "textures": {
+    "all": "plushified:block/antfrost_plushie",
+    "particle": "plushified:block/antfrost_plushie",
+    "0": "plushified:block/antfrost_plushie"
+  },
+  "render_type": "translusent"
+}

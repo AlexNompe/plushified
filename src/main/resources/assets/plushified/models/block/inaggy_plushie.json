@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/inaggy_plushie",
+  "textures": {
+    "all": "plushified:block/inaggy_plushie",
+    "particle": "plushified:block/inaggy_plushie",
+    "0": "plushified:block/inaggy_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/m_mafinev_plushie",
+  "textures": {
+    "all": "plushified:block/m_mafinev_plushie",
+    "particle": "plushified:block/m_mafinev_plushie",
+    "0": "plushified:block/m_mafinev_plushie"
+  },
+  "render_type": "translusent"
+}

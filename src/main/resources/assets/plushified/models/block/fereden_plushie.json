@@ -2,7 +2,7 @@
   "parent": "plushified:custom/fereden_plushie",
   "textures": {
     "all": "plushified:block/fereden_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/fereden_plushie",
     "0": "plushified:block/fereden_plushie"
   },
   "render_type": "translusent"

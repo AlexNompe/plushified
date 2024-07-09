@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/arathain_plushie",
+  "textures": {
+    "all": "plushified:block/arathain_plushie",
+    "particle": "plushified:block/arathain_plushie",
+    "0": "plushified:block/arathain_plushie"
+  },
+  "render_type": "translusent"
+}

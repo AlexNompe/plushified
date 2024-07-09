@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/pangi_plushie",
+  "textures": {
+    "all": "plushified:block/pangi_plushie",
+    "particle": "plushified:block/pangi_plushie",
+    "0": "plushified:block/pangi_plushie"
+  },
+  "render_type": "translusent"
+}

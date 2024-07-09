@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/baconnwaffles0_plushie",
+  "textures": {
+    "all": "plushified:block/baconnwaffles0_plushie",
+    "particle": "plushified:block/baconnwaffles0_plushie",
+    "0": "plushified:block/baconnwaffles0_plushie"
+  },
+  "render_type": "translusent"
+}

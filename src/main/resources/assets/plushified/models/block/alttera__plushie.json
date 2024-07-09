@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/alttera__plushie",
+  "textures": {
+    "all": "plushified:block/alttera__plushie",
+    "particle": "plushified:block/alttera__plushie",
+    "0": "plushified:block/alttera__plushie"
+  },
+  "render_type": "translusent"
+}

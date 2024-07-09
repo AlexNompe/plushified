@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/peentar_plushie",
+  "textures": {
+    "all": "plushified:block/peentar_plushie",
+    "particle": "plushified:block/peentar_plushie",
+    "0": "plushified:block/peentar_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/awesamdude_plushie",
+  "textures": {
+    "all": "plushified:block/awesamdude_plushie",
+    "particle": "plushified:block/awesamdude_plushie",
+    "0": "plushified:block/awesamdude_plushie"
+  },
+  "render_type": "translusent"
+}

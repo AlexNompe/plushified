@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/olyachesapik_plushie",
+  "textures": {
+    "all": "plushified:block/olyachesapik_plushie",
+    "particle": "plushified:block/olyachesapik_plushie",
+    "0": "plushified:block/olyachesapik_plushie"
+  },
+  "render_type": "translusent"
+}

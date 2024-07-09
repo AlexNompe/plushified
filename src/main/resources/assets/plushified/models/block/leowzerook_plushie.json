@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/leowzerook_plushie",
+  "textures": {
+    "all": "plushified:block/leowzerook_plushie",
+    "particle": "plushified:block/leowzerook_plushie",
+    "0": "plushified:block/leowzerook_plushie"
+  },
+  "render_type": "translusent"
+}

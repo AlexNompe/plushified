@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/mapicc_plushie",
+  "textures": {
+    "all": "plushified:block/mapicc_plushie",
+    "particle": "plushified:block/mapicc_plushie",
+    "0": "plushified:block/mapicc_plushie"
+  },
+  "render_type": "translusent"
+}

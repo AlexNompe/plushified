@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/roshambogames_plushie",
+  "textures": {
+    "all": "plushified:block/roshambogames_plushie",
+    "particle": "plushified:block/roshambogames_plushie",
+    "0": "plushified:block/roshambogames_plushie"
+  },
+  "render_type": "translusent"
+}

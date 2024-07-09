@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/mrcube6_plushie",
+  "textures": {
+    "all": "plushified:block/mrcube6_plushie",
+    "particle": "plushified:block/mrcube6_plushie",
+    "0": "plushified:block/mrcube6_plushie"
+  },
+  "render_type": "translusent"
+}

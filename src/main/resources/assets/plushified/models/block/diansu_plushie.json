@@ -2,7 +2,7 @@
   "parent": "plushified:custom/diansu_plushie",
   "textures": {
     "all": "plushified:block/diansu_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/diansu_plushie",
     "0": "plushified:block/diansu_plushie"
   },
   "render_type": "translusent"

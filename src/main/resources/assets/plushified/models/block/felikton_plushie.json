@@ -2,7 +2,7 @@
   "parent": "plushified:custom/felikton_plushie",
   "textures": {
     "all": "plushified:block/felikton_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/felikton_plushie",
     "0": "plushified:block/felikton_plushie"
   },
   "render_type": "translusent"

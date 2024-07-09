@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/ketrincyst_plushie",
+  "textures": {
+    "all": "plushified:block/ketrincyst_plushie",
+    "particle": "plushified:block/ketrincyst_plushie",
+    "0": "plushified:block/ketrincyst_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/alcest_m_plushie",
+  "textures": {
+    "all": "plushified:block/alcest_m_plushie",
+    "particle": "plushified:block/alcest_m_plushie",
+    "0": "plushified:block/alcest_m_plushie"
+  },
+  "render_type": "translusent"
+}

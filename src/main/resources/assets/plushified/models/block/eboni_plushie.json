@@ -2,7 +2,7 @@
   "parent": "plushified:custom/eboni_plushie",
   "textures": {
     "all": "plushified:block/eboni_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/eboni_plushie",
     "0": "plushified:block/eboni_plushie"
   },
   "render_type": "translusent"

@@ -2,7 +2,7 @@
   "parent": "plushified:custom/durawka_plushie",
   "textures": {
     "all": "plushified:block/durawka_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/durawka_plushie",
     "0": "plushified:block/durawka_plushie"
   },
   "render_type": "translusent"

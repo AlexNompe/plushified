@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/faradey_plushie",
+  "textures": {
+    "all": "plushified:block/faradey_plushie",
+    "particle": "plushified:block/faradey_plushie",
+    "0": "plushified:block/faradey_plushie"
+  },
+  "render_type": "translusent"
+}

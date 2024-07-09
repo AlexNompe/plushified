@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/minutetech_plushie",
+  "textures": {
+    "all": "plushified:block/minutetech_plushie",
+    "particle": "plushified:block/minutetech_plushie",
+    "0": "plushified:block/minutetech_plushie"
+  },
+  "render_type": "translusent"
+}

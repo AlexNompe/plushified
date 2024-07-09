@@ -2,7 +2,7 @@
   "parent": "plushified:custom/nurofen_plushie",
   "textures": {
     "all": "plushified:block/nurofen_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/nurofen_plushie",
     "0": "plushified:block/nurofen_plushie"
   },
   "render_type": "translusent"

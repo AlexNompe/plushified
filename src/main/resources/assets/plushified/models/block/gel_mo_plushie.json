@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/gel_mo_plushie",
+  "textures": {
+    "all": "plushified:block/gel_mo_plushie",
+    "particle": "plushified:block/gel_mo_plushie",
+    "0": "plushified:block/gel_mo_plushie"
+  },
+  "render_type": "translusent"
+}

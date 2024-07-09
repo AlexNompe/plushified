@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/barsigold_plushie",
+  "textures": {
+    "all": "plushified:block/barsigold_plushie",
+    "particle": "plushified:block/barsigold_plushie",
+    "0": "plushified:block/barsigold_plushie"
+  },
+  "render_type": "translusent"
+}

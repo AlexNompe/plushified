@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/jay_pokerman_plushie",
+  "textures": {
+    "all": "plushified:block/jay_pokerman_plushie",
+    "particle": "plushified:block/jay_pokerman_plushie",
+    "0": "plushified:block/jay_pokerman_plushie"
+  },
+  "render_type": "translusent"
+}

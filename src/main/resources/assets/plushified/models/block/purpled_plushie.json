@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/purpled_plushie",
+  "textures": {
+    "all": "plushified:block/purpled_plushie",
+    "particle": "plushified:block/purpled_plushie",
+    "0": "plushified:block/purpled_plushie"
+  },
+  "render_type": "translusent"
+}

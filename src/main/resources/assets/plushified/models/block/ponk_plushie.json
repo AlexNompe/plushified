@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/ponk_plushie",
+  "textures": {
+    "all": "plushified:block/ponk_plushie",
+    "particle": "plushified:block/ponk_plushie",
+    "0": "plushified:block/ponk_plushie"
+  },
+  "render_type": "translusent"
+}

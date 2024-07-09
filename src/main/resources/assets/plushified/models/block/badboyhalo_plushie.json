@@ -2,7 +2,7 @@
   "parent": "plushified:custom/badboyhalo_plushie",
   "textures": {
     "all": "plushified:block/badboyhalo_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/badboyhalo_plushie",
     "0": "plushified:block/badboyhalo_plushie"
   },
   "render_type": "translusent"

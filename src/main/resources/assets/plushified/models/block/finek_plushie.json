@@ -2,7 +2,7 @@
   "parent": "plushified:custom/finek_plushie",
   "textures": {
     "all": "plushified:block/finek_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/finek_plushie",
     "0": "plushified:block/finek_plushie"
   },
   "render_type": "translusent"

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/flamefrags_plushie",
+  "textures": {
+    "all": "plushified:block/flamefrags_plushie",
+    "particle": "plushified:block/flamefrags_plushie",
+    "0": "plushified:block/flamefrags_plushie"
+  },
+  "render_type": "translusent"
+}

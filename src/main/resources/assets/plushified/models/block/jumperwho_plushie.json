@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/jumperwho_plushie",
+  "textures": {
+    "all": "plushified:block/jumperwho_plushie",
+    "particle": "plushified:block/jumperwho_plushie",
+    "0": "plushified:block/jumperwho_plushie"
+  },
+  "render_type": "translusent"
+}

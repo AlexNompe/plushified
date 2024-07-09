@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/jepexx_plushie",
+  "textures": {
+    "all": "plushified:block/jepexx_plushie",
+    "particle": "plushified:block/jepexx_plushie",
+    "0": "plushified:block/jepexx_plushie"
+  },
+  "render_type": "translusent"
+}

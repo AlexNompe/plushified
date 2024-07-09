@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/obsidiantime69_plushie",
+  "textures": {
+    "all": "plushified:block/obsidiantime69_plushie",
+    "particle": "plushified:block/obsidiantime69_plushie",
+    "0": "plushified:block/obsidiantime69_plushie"
+  },
+  "render_type": "translusent"
+}

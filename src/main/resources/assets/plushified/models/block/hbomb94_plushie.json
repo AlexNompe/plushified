@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/hbomb94_plushie",
+  "textures": {
+    "all": "plushified:block/hbomb94_plushie",
+    "particle": "plushified:block/hbomb94_plushie",
+    "0": "plushified:block/hbomb94_plushie"
+  },
+  "render_type": "translusent"
+}

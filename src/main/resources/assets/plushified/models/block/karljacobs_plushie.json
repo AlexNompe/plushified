@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/karljacobs_plushie",
+  "textures": {
+    "all": "plushified:block/karljacobs_plushie",
+    "particle": "plushified:block/karljacobs_plushie",
+    "0": "plushified:block/karljacobs_plushie"
+  },
+  "render_type": "translusent"
+}

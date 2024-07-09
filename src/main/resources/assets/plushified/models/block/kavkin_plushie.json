@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/kavkin_plushie",
+  "textures": {
+    "all": "plushified:block/kavkin_plushie",
+    "particle": "plushified:block/kavkin_plushie",
+    "0": "plushified:block/kavkin_plushie"
+  },
+  "render_type": "translusent"
+}

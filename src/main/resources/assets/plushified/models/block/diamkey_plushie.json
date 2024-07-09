@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/diamkey_plushie",
+  "textures": {
+    "all": "plushified:block/diamkey_plushie",
+    "particle": "plushified:block/diamkey_plushie",
+    "0": "plushified:block/diamkey_plushie"
+  },
+  "render_type": "translusent"
+}

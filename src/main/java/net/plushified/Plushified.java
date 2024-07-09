@@ -16,6 +16,7 @@ public class Plushified implements ModInitializer {
 
 		BlockRegistry.registering();
 		BlockEntityRegistry.registering();
+		EventRegistry.registering();
 		ItemGroupRegistry.registering();
 		SoundEventRegistry.registering();
 	}

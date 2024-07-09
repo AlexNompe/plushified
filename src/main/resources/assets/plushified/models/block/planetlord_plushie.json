@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/planetlord_plushie",
+  "textures": {
+    "all": "plushified:block/planetlord_plushie",
+    "particle": "plushified:block/planetlord_plushie",
+    "0": "plushified:block/planetlord_plushie"
+  },
+  "render_type": "translusent"
+}

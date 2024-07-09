@@ -2,7 +2,7 @@
   "parent": "plushified:custom/philza_plushie",
   "textures": {
     "all": "plushified:block/philza_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/philza_plushie",
     "0": "plushified:block/philza_plushie"
   },
   "render_type": "translusent"

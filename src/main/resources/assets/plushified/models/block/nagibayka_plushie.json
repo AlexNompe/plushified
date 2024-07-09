@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/nagibayka_plushie",
+  "textures": {
+    "all": "plushified:block/nagibayka_plushie",
+    "particle": "plushified:block/nagibayka_plushie",
+    "0": "plushified:block/nagibayka_plushie"
+  },
+  "render_type": "translusent"
+}

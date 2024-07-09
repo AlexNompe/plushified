@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/connoreatspants_plushie",
+  "textures": {
+    "all": "plushified:block/connoreatspants_plushie",
+    "particle": "plushified:block/connoreatspants_plushie",
+    "0": "plushified:block/connoreatspants_plushie"
+  },
+  "render_type": "translusent"
+}

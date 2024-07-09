@@ -2,7 +2,7 @@
   "parent": "plushified:custom/goose_plushie",
   "textures": {
     "all": "plushified:block/goose_plushie",
-    "particle": "plushified:block/plushie_particle",
+    "particle": "plushified:block/goose_plushie",
     "0": "plushified:block/goose_plushie"
   },
   "render_type": "translusent"

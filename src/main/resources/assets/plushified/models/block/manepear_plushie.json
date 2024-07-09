@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/manepear_plushie",
+  "textures": {
+    "all": "plushified:block/manepear_plushie",
+    "particle": "plushified:block/manepear_plushie",
+    "0": "plushified:block/manepear_plushie"
+  },
+  "render_type": "translusent"
+}

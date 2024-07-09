@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/lordsantos_plushie",
+  "textures": {
+    "all": "plushified:block/lordsantos_plushie",
+    "particle": "plushified:block/lordsantos_plushie",
+    "0": "plushified:block/lordsantos_plushie"
+  },
+  "render_type": "translusent"
+}

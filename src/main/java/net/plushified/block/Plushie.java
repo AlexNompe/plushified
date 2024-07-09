@@ -50,25 +50,10 @@ public abstract class Plushie extends BlockWithEntity implements Waterloggable, 
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView blockView, BlockPos pos, ShapeContext context) {
-        VoxelShape voxel = VoxelShapes.union(
-                Block.createCuboidShape(
-                        3f, 5.725f, 4f,
-                        13f, 15.725f, 14f),
-                Block.createCuboidShape(
-                        5f, 1.05f, 8.49f,
-                        11f, 6.05f, 10.51f),
-                Block.createCuboidShape(
-                        1.175, 2.3, 6.75,
-                        5.7,5.925,10.175),
-                rotateShape(Direction.SOUTH, Block.createCuboidShape(
-                        1.175, 2.3, 6.75,
-                        5.7,5.925,10.175)),
+        VoxelShape voxel =
                 Block.createCuboidShape(
                         3, 0, 4,
-                        8,3,10),
-                Block.createCuboidShape(
-                        8, 0, 4,
-                        13,3,10));
+                        13,16,14);
         //return voxel;
         return switch (state.get(Properties.HORIZONTAL_FACING)) {
             case EAST -> rotateShape(Direction.EAST, voxel);
