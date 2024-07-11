@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/stressmonster101_plushie",
+  "textures": {
+    "all": "plushified:block/stressmonster101_plushie",
+    "particle": "plushified:block/stressmonster101_plushie",
+    "0": "plushified:block/stressmonster101_plushie"
+  },
+  "render_type": "translusent"
+}

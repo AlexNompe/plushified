@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/vipsss_plushie",
+  "textures": {
+    "all": "plushified:block/vipsss_plushie",
+    "particle": "plushified:block/vipsss_plushie",
+    "0": "plushified:block/vipsss_plushie"
+  },
+  "render_type": "translusent"
+}

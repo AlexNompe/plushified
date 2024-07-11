@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/smallishbeans_plushie",
+  "textures": {
+    "all": "plushified:block/smallishbeans_plushie",
+    "particle": "plushified:block/smallishbeans_plushie",
+    "0": "plushified:block/smallishbeans_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/moriyashiine_plushie",
+  "textures": {
+    "all": "plushified:block/moriyashiine_plushie",
+    "particle": "plushified:block/moriyashiine_plushie",
+    "0": "plushified:block/moriyashiine_plushie"
+  },
+  "render_type": "translusent"
+}

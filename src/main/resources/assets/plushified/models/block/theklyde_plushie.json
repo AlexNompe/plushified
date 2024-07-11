@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/theklyde_plushie",
+  "textures": {
+    "all": "plushified:block/theklyde_plushie",
+    "particle": "plushified:block/theklyde_plushie",
+    "0": "plushified:block/theklyde_plushie"
+  },
+  "render_type": "translusent"
+}

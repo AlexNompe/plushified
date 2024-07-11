@@ -559,12 +559,6 @@ public class BlockEntityRegistry {
             super(NUROFEN_PLUSHIE_BLOCK_ENTITY, pos, state);
         }
     }
-    public static class ObsidiantimesixninePlushieBlockEntity extends PlushieBlockEntity {
-
-        public ObsidiantimesixninePlushieBlockEntity(BlockPos pos, BlockState state) {
-            super(OBSIDIANTIMEsixnine_PLUSHIE_BLOCK_ENTITY, pos, state);
-        }
-    }
     public static class ObsiPlushieBlockEntity extends PlushieBlockEntity {
 
         public ObsiPlushieBlockEntity(BlockPos pos, BlockState state) {
@@ -625,12 +619,6 @@ public class BlockEntityRegistry {
             super(PURPLED_PLUSHIE_BLOCK_ENTITY, pos, state);
         }
     }
-    public static class PwgoodPlushieBlockEntity extends PlushieBlockEntity {
-
-        public PwgoodPlushieBlockEntity(BlockPos pos, BlockState state) {
-            super(PWGOOD_PLUSHIE_BLOCK_ENTITY, pos, state);
-        }
-    }
     public static class PwgooodPlushieBlockEntity extends PlushieBlockEntity {
 
         public PwgooodPlushieBlockEntity(BlockPos pos, BlockState state) {
@@ -683,6 +671,420 @@ public class BlockEntityRegistry {
 
         public SapnapPlushieBlockEntity(BlockPos pos, BlockState state) {
             super(SAPNAP_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SbseventhreesevenPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SbseventhreesevenPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SBseventhreeseven_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SecbPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SecbPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SECB_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SirpiligrimPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SirpiligrimPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SIRPILIGRIM_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SkeppyPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SkeppyPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SKEPPY_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SlovenofPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SlovenofPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SLOVENOF_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SmmasshPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SmmasshPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SMMASSH_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SneegsnagPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SneegsnagPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SNEEGSNAG_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SnrgiraffePlushieBlockEntity extends PlushieBlockEntity {
+
+        public SnrgiraffePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SNRGIRAFFE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SpepticlePlushieBlockEntity extends PlushieBlockEntity {
+
+        public SpepticlePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SPEPTICLE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SpokeisherePlushieBlockEntity extends PlushieBlockEntity {
+
+        public SpokeisherePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SPOKEISHERE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SquiddoPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SquiddoPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SQUIDDO_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class StalinPlushieBlockEntity extends PlushieBlockEntity {
+
+        public StalinPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(STALIN_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TechnoPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TechnoPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TECHNO_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TheklydePlushieBlockEntity extends PlushieBlockEntity {
+
+        public TheklydePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(THEKLYDE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TheterrainPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TheterrainPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(THETERRAIN_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TommyinnitPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TommyinnitPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TOMMYINNIT_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TubboPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TubboPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TUBBO_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TuvikuPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TuvikuPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TUVIKU_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VacmakacPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VacmakacPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VACMAKAC_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VenazarPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VenazarPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VENAZAR_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VerylouderPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VerylouderPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VERYLOUDER_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VikkstaronetwothreePlushieBlockEntity extends PlushieBlockEntity {
+
+        public VikkstaronetwothreePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VIKKSTARonetwothree_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VipsssPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VipsssPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VIPSSS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VmutedPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VmutedPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VMUTED_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VortthreexdragonPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VortthreexdragonPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VORTthreeXDRAGON_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class WemmbuPlushieBlockEntity extends PlushieBlockEntity {
+
+        public WemmbuPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(WEMMBU_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class WilbursootPlushieBlockEntity extends PlushieBlockEntity {
+
+        public WilbursootPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(WILBURSOOT_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class WinsweepPlushieBlockEntity extends PlushieBlockEntity {
+
+        public WinsweepPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(WINSWEEP_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class WoogiexPlushieBlockEntity extends PlushieBlockEntity {
+
+        public WoogiexPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(WOOGIEX_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class Yeah_jaronPlushieBlockEntity extends PlushieBlockEntity {
+
+        public Yeah_jaronPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(YEAH_JARON_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ZakvielPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ZakvielPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ZAKVIEL_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ZmeecPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ZmeecPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ZMEEC_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ZmeevigPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ZmeevigPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ZMEEVIG_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class _heo_PlushieBlockEntity extends PlushieBlockEntity {
+
+        public _heo_PlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(_HEO__PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class eightonfirePlushieBlockEntity extends PlushieBlockEntity {
+
+        public eightonfirePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(eightONFIRE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class AstronyuPlushieBlockEntity extends PlushieBlockEntity {
+
+        public AstronyuPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ASTRONYU_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class BdoubleoonezerozeroPlushieBlockEntity extends PlushieBlockEntity {
+
+        public BdoubleoonezerozeroPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(BDOUBLEOonezerozero_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class CubfanonethreefivePlushieBlockEntity extends PlushieBlockEntity {
+
+        public CubfanonethreefivePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(CUBFANonethreefive_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class DocmsevensevenPlushieBlockEntity extends PlushieBlockEntity {
+
+        public DocmsevensevenPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(DOCMsevenseven_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class FalsesymmetryPlushieBlockEntity extends PlushieBlockEntity {
+
+        public FalsesymmetryPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(FALSESYMMETRY_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class FowrzeroPlushieBlockEntity extends PlushieBlockEntity {
+
+        public FowrzeroPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(FOWRzero_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class FreakgeniusPlushieBlockEntity extends PlushieBlockEntity {
+
+        public FreakgeniusPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(FREAKGENIUS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class GeminitayPlushieBlockEntity extends PlushieBlockEntity {
+
+        public GeminitayPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(GEMINITAY_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class GoodtimeswithscarPlushieBlockEntity extends PlushieBlockEntity {
+
+        public GoodtimeswithscarPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(GOODTIMESWITHSCAR_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class GrianPlushieBlockEntity extends PlushieBlockEntity {
+
+        public GrianPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(GRIAN_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class HypnotizdPlushieBlockEntity extends PlushieBlockEntity {
+
+        public HypnotizdPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(HYPNOTIZD_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class IjevinPlushieBlockEntity extends PlushieBlockEntity {
+
+        public IjevinPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(IJEVIN_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ImpulsesvPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ImpulsesvPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(IMPULSESV_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class IskalleightfivePlushieBlockEntity extends PlushieBlockEntity {
+
+        public IskalleightfivePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ISKALLeightfive_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class JoehillssaysPlushieBlockEntity extends PlushieBlockEntity {
+
+        public JoehillssaysPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(JOEHILLSSAYS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class KeralisPlushieBlockEntity extends PlushieBlockEntity {
+
+        public KeralisPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(KERALIS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class KiricattusPlushieBlockEntity extends PlushieBlockEntity {
+
+        public KiricattusPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(KIRICATTUS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class MoriyashiinePlushieBlockEntity extends PlushieBlockEntity {
+
+        public MoriyashiinePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(MORIYASHIINE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class MumbojumboPlushieBlockEntity extends PlushieBlockEntity {
+
+        public MumbojumboPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(MUMBOJUMBO_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class NoxintrusPlushieBlockEntity extends PlushieBlockEntity {
+
+        public NoxintrusPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(NOXINTRUS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class PearlescentmoonPlushieBlockEntity extends PlushieBlockEntity {
+
+        public PearlescentmoonPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(PEARLESCENTMOON_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class RendogPlushieBlockEntity extends PlushieBlockEntity {
+
+        public RendogPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(RENDOG_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SillviatvPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SillviatvPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SILLVIATV_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SkizzlemanPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SkizzlemanPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SKIZZLEMAN_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class SmallishbeansPlushieBlockEntity extends PlushieBlockEntity {
+
+        public SmallishbeansPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(SMALLISHBEANS_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class StressmonsteronezeroonePlushieBlockEntity extends PlushieBlockEntity {
+
+        public StressmonsteronezeroonePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(STRESSMONSTERonezeroone_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TalonPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TalonPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TALON_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class TangotekPlushieBlockEntity extends PlushieBlockEntity {
+
+        public TangotekPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(TANGOTEK_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class VintagebeefPlushieBlockEntity extends PlushieBlockEntity {
+
+        public VintagebeefPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(VINTAGEBEEF_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class XbcraftedPlushieBlockEntity extends PlushieBlockEntity {
+
+        public XbcraftedPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(XBCRAFTED_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class XisumaPlushieBlockEntity extends PlushieBlockEntity {
+
+        public XisumaPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(XISUMA_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class YahiamicePlushieBlockEntity extends PlushieBlockEntity {
+
+        public YahiamicePlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(YAHIAMICE_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ZedaphPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ZedaphPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ZEDAPH_PLUSHIE_BLOCK_ENTITY, pos, state);
+        }
+    }
+    public static class ZombiecleoPlushieBlockEntity extends PlushieBlockEntity {
+
+        public ZombiecleoPlushieBlockEntity(BlockPos pos, BlockState state) {
+            super(ZOMBIECLEO_PLUSHIE_BLOCK_ENTITY, pos, state);
         }
     } //this comment is autogenerated
 
@@ -777,7 +1179,6 @@ public class BlockEntityRegistry {
     public static final BlockEntityType<NikiPlushieBlockEntity> NIKI_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(NikiPlushieBlockEntity::new, NIKI_PLUSHIE).build();
     public static final BlockEntityType<NovikonyPlushieBlockEntity> NOVIKONY_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(NovikonyPlushieBlockEntity::new, NOVIKONY_PLUSHIE).build();
     public static final BlockEntityType<NurofenPlushieBlockEntity> NUROFEN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(NurofenPlushieBlockEntity::new, NUROFEN_PLUSHIE).build();
-    public static final BlockEntityType<ObsidiantimesixninePlushieBlockEntity> OBSIDIANTIMEsixnine_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ObsidiantimesixninePlushieBlockEntity::new, OBSIDIANTIMEsixnine_PLUSHIE).build();
     public static final BlockEntityType<ObsiPlushieBlockEntity> OBSI_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ObsiPlushieBlockEntity::new, OBSI_PLUSHIE).build();
     public static final BlockEntityType<OlyachesapikPlushieBlockEntity> OLYACHESAPIK_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(OlyachesapikPlushieBlockEntity::new, OLYACHESAPIK_PLUSHIE).build();
     public static final BlockEntityType<Optimist_ezzPlushieBlockEntity> OPTIMIST_EZZ_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(Optimist_ezzPlushieBlockEntity::new, OPTIMIST_EZZ_PLUSHIE).build();
@@ -788,7 +1189,6 @@ public class BlockEntityRegistry {
     public static final BlockEntityType<PonkPlushieBlockEntity> PONK_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PonkPlushieBlockEntity::new, PONK_PLUSHIE).build();
     public static final BlockEntityType<PrincezamPlushieBlockEntity> PRINCEZAM_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PrincezamPlushieBlockEntity::new, PRINCEZAM_PLUSHIE).build();
     public static final BlockEntityType<PurpledPlushieBlockEntity> PURPLED_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PurpledPlushieBlockEntity::new, PURPLED_PLUSHIE).build();
-    public static final BlockEntityType<PwgoodPlushieBlockEntity> PWGOOD_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PwgoodPlushieBlockEntity::new, PWGOOD_PLUSHIE).build();
     public static final BlockEntityType<PwgooodPlushieBlockEntity> PWGOOOD_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PwgooodPlushieBlockEntity::new, PWGOOOD_PLUSHIE).build();
     public static final BlockEntityType<QuackityPlushieBlockEntity> QUACKITY_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(QuackityPlushieBlockEntity::new, QUACKITY_PLUSHIE).build();
     public static final BlockEntityType<RfourtmaidPlushieBlockEntity> RfourTMAID_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(RfourtmaidPlushieBlockEntity::new, RfourTMAID_PLUSHIE).build();
@@ -797,7 +1197,76 @@ public class BlockEntityRegistry {
     public static final BlockEntityType<ResotaPlushieBlockEntity> RESOTA_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ResotaPlushieBlockEntity::new, RESOTA_PLUSHIE).build();
     public static final BlockEntityType<RoshambogamesPlushieBlockEntity> ROSHAMBOGAMES_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(RoshambogamesPlushieBlockEntity::new, ROSHAMBOGAMES_PLUSHIE).build();
     public static final BlockEntityType<SanhezPlushieBlockEntity> SANHEZ_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SanhezPlushieBlockEntity::new, SANHEZ_PLUSHIE).build();
-    public static final BlockEntityType<SapnapPlushieBlockEntity> SAPNAP_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SapnapPlushieBlockEntity::new, SAPNAP_PLUSHIE).build(); //this comment is autogenerated
+    public static final BlockEntityType<SapnapPlushieBlockEntity> SAPNAP_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SapnapPlushieBlockEntity::new, SAPNAP_PLUSHIE).build();
+    public static final BlockEntityType<SbseventhreesevenPlushieBlockEntity> SBseventhreeseven_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SbseventhreesevenPlushieBlockEntity::new, SBseventhreeseven_PLUSHIE).build();
+    public static final BlockEntityType<SecbPlushieBlockEntity> SECB_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SecbPlushieBlockEntity::new, SECB_PLUSHIE).build();
+    public static final BlockEntityType<SirpiligrimPlushieBlockEntity> SIRPILIGRIM_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SirpiligrimPlushieBlockEntity::new, SIRPILIGRIM_PLUSHIE).build();
+    public static final BlockEntityType<SkeppyPlushieBlockEntity> SKEPPY_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SkeppyPlushieBlockEntity::new, SKEPPY_PLUSHIE).build();
+    public static final BlockEntityType<SlovenofPlushieBlockEntity> SLOVENOF_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SlovenofPlushieBlockEntity::new, SLOVENOF_PLUSHIE).build();
+    public static final BlockEntityType<SmmasshPlushieBlockEntity> SMMASSH_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SmmasshPlushieBlockEntity::new, SMMASSH_PLUSHIE).build();
+    public static final BlockEntityType<SneegsnagPlushieBlockEntity> SNEEGSNAG_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SneegsnagPlushieBlockEntity::new, SNEEGSNAG_PLUSHIE).build();
+    public static final BlockEntityType<SnrgiraffePlushieBlockEntity> SNRGIRAFFE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SnrgiraffePlushieBlockEntity::new, SNRGIRAFFE_PLUSHIE).build();
+    public static final BlockEntityType<SpepticlePlushieBlockEntity> SPEPTICLE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SpepticlePlushieBlockEntity::new, SPEPTICLE_PLUSHIE).build();
+    public static final BlockEntityType<SpokeisherePlushieBlockEntity> SPOKEISHERE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SpokeisherePlushieBlockEntity::new, SPOKEISHERE_PLUSHIE).build();
+    public static final BlockEntityType<SquiddoPlushieBlockEntity> SQUIDDO_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SquiddoPlushieBlockEntity::new, SQUIDDO_PLUSHIE).build();
+    public static final BlockEntityType<StalinPlushieBlockEntity> STALIN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(StalinPlushieBlockEntity::new, STALIN_PLUSHIE).build();
+    public static final BlockEntityType<TechnoPlushieBlockEntity> TECHNO_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TechnoPlushieBlockEntity::new, TECHNO_PLUSHIE).build();
+    public static final BlockEntityType<TheklydePlushieBlockEntity> THEKLYDE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TheklydePlushieBlockEntity::new, THEKLYDE_PLUSHIE).build();
+    public static final BlockEntityType<TheterrainPlushieBlockEntity> THETERRAIN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TheterrainPlushieBlockEntity::new, THETERRAIN_PLUSHIE).build();
+    public static final BlockEntityType<TommyinnitPlushieBlockEntity> TOMMYINNIT_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TommyinnitPlushieBlockEntity::new, TOMMYINNIT_PLUSHIE).build();
+    public static final BlockEntityType<TubboPlushieBlockEntity> TUBBO_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TubboPlushieBlockEntity::new, TUBBO_PLUSHIE).build();
+    public static final BlockEntityType<TuvikuPlushieBlockEntity> TUVIKU_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TuvikuPlushieBlockEntity::new, TUVIKU_PLUSHIE).build();
+    public static final BlockEntityType<VacmakacPlushieBlockEntity> VACMAKAC_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VacmakacPlushieBlockEntity::new, VACMAKAC_PLUSHIE).build();
+    public static final BlockEntityType<VenazarPlushieBlockEntity> VENAZAR_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VenazarPlushieBlockEntity::new, VENAZAR_PLUSHIE).build();
+    public static final BlockEntityType<VerylouderPlushieBlockEntity> VERYLOUDER_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VerylouderPlushieBlockEntity::new, VERYLOUDER_PLUSHIE).build();
+    public static final BlockEntityType<VikkstaronetwothreePlushieBlockEntity> VIKKSTARonetwothree_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VikkstaronetwothreePlushieBlockEntity::new, VIKKSTARonetwothree_PLUSHIE).build();
+    public static final BlockEntityType<VipsssPlushieBlockEntity> VIPSSS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VipsssPlushieBlockEntity::new, VIPSSS_PLUSHIE).build();
+    public static final BlockEntityType<VmutedPlushieBlockEntity> VMUTED_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VmutedPlushieBlockEntity::new, VMUTED_PLUSHIE).build();
+    public static final BlockEntityType<VortthreexdragonPlushieBlockEntity> VORTthreeXDRAGON_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VortthreexdragonPlushieBlockEntity::new, VORTthreeXDRAGON_PLUSHIE).build();
+    public static final BlockEntityType<WemmbuPlushieBlockEntity> WEMMBU_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(WemmbuPlushieBlockEntity::new, WEMMBU_PLUSHIE).build();
+    public static final BlockEntityType<WilbursootPlushieBlockEntity> WILBURSOOT_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(WilbursootPlushieBlockEntity::new, WILBURSOOT_PLUSHIE).build();
+    public static final BlockEntityType<WinsweepPlushieBlockEntity> WINSWEEP_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(WinsweepPlushieBlockEntity::new, WINSWEEP_PLUSHIE).build();
+    public static final BlockEntityType<WoogiexPlushieBlockEntity> WOOGIEX_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(WoogiexPlushieBlockEntity::new, WOOGIEX_PLUSHIE).build();
+    public static final BlockEntityType<Yeah_jaronPlushieBlockEntity> YEAH_JARON_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(Yeah_jaronPlushieBlockEntity::new, YEAH_JARON_PLUSHIE).build();
+    public static final BlockEntityType<ZakvielPlushieBlockEntity> ZAKVIEL_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ZakvielPlushieBlockEntity::new, ZAKVIEL_PLUSHIE).build();
+    public static final BlockEntityType<ZmeecPlushieBlockEntity> ZMEEC_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ZmeecPlushieBlockEntity::new, ZMEEC_PLUSHIE).build();
+    public static final BlockEntityType<ZmeevigPlushieBlockEntity> ZMEEVIG_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ZmeevigPlushieBlockEntity::new, ZMEEVIG_PLUSHIE).build();
+    public static final BlockEntityType<_heo_PlushieBlockEntity> _HEO__PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(_heo_PlushieBlockEntity::new, _HEO__PLUSHIE).build();
+    public static final BlockEntityType<eightonfirePlushieBlockEntity> eightONFIRE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(eightonfirePlushieBlockEntity::new, eightONFIRE_PLUSHIE).build();
+    public static final BlockEntityType<AstronyuPlushieBlockEntity> ASTRONYU_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(AstronyuPlushieBlockEntity::new, ASTRONYU_PLUSHIE).build();
+    public static final BlockEntityType<BdoubleoonezerozeroPlushieBlockEntity> BDOUBLEOonezerozero_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(BdoubleoonezerozeroPlushieBlockEntity::new, BDOUBLEOonezerozero_PLUSHIE).build();
+    public static final BlockEntityType<CubfanonethreefivePlushieBlockEntity> CUBFANonethreefive_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(CubfanonethreefivePlushieBlockEntity::new, CUBFANonethreefive_PLUSHIE).build();
+    public static final BlockEntityType<DocmsevensevenPlushieBlockEntity> DOCMsevenseven_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(DocmsevensevenPlushieBlockEntity::new, DOCMsevenseven_PLUSHIE).build();
+    public static final BlockEntityType<FalsesymmetryPlushieBlockEntity> FALSESYMMETRY_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(FalsesymmetryPlushieBlockEntity::new, FALSESYMMETRY_PLUSHIE).build();
+    public static final BlockEntityType<FowrzeroPlushieBlockEntity> FOWRzero_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(FowrzeroPlushieBlockEntity::new, FOWRzero_PLUSHIE).build();
+    public static final BlockEntityType<FreakgeniusPlushieBlockEntity> FREAKGENIUS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(FreakgeniusPlushieBlockEntity::new, FREAKGENIUS_PLUSHIE).build();
+    public static final BlockEntityType<GeminitayPlushieBlockEntity> GEMINITAY_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(GeminitayPlushieBlockEntity::new, GEMINITAY_PLUSHIE).build();
+    public static final BlockEntityType<GoodtimeswithscarPlushieBlockEntity> GOODTIMESWITHSCAR_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(GoodtimeswithscarPlushieBlockEntity::new, GOODTIMESWITHSCAR_PLUSHIE).build();
+    public static final BlockEntityType<GrianPlushieBlockEntity> GRIAN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(GrianPlushieBlockEntity::new, GRIAN_PLUSHIE).build();
+    public static final BlockEntityType<HypnotizdPlushieBlockEntity> HYPNOTIZD_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(HypnotizdPlushieBlockEntity::new, HYPNOTIZD_PLUSHIE).build();
+    public static final BlockEntityType<IjevinPlushieBlockEntity> IJEVIN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(IjevinPlushieBlockEntity::new, IJEVIN_PLUSHIE).build();
+    public static final BlockEntityType<ImpulsesvPlushieBlockEntity> IMPULSESV_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ImpulsesvPlushieBlockEntity::new, IMPULSESV_PLUSHIE).build();
+    public static final BlockEntityType<IskalleightfivePlushieBlockEntity> ISKALLeightfive_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(IskalleightfivePlushieBlockEntity::new, ISKALLeightfive_PLUSHIE).build();
+    public static final BlockEntityType<JoehillssaysPlushieBlockEntity> JOEHILLSSAYS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(JoehillssaysPlushieBlockEntity::new, JOEHILLSSAYS_PLUSHIE).build();
+    public static final BlockEntityType<KeralisPlushieBlockEntity> KERALIS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(KeralisPlushieBlockEntity::new, KERALIS_PLUSHIE).build();
+    public static final BlockEntityType<KiricattusPlushieBlockEntity> KIRICATTUS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(KiricattusPlushieBlockEntity::new, KIRICATTUS_PLUSHIE).build();
+    public static final BlockEntityType<MoriyashiinePlushieBlockEntity> MORIYASHIINE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(MoriyashiinePlushieBlockEntity::new, MORIYASHIINE_PLUSHIE).build();
+    public static final BlockEntityType<MumbojumboPlushieBlockEntity> MUMBOJUMBO_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(MumbojumboPlushieBlockEntity::new, MUMBOJUMBO_PLUSHIE).build();
+    public static final BlockEntityType<NoxintrusPlushieBlockEntity> NOXINTRUS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(NoxintrusPlushieBlockEntity::new, NOXINTRUS_PLUSHIE).build();
+    public static final BlockEntityType<PearlescentmoonPlushieBlockEntity> PEARLESCENTMOON_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(PearlescentmoonPlushieBlockEntity::new, PEARLESCENTMOON_PLUSHIE).build();
+    public static final BlockEntityType<RendogPlushieBlockEntity> RENDOG_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(RendogPlushieBlockEntity::new, RENDOG_PLUSHIE).build();
+    public static final BlockEntityType<SillviatvPlushieBlockEntity> SILLVIATV_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SillviatvPlushieBlockEntity::new, SILLVIATV_PLUSHIE).build();
+    public static final BlockEntityType<SkizzlemanPlushieBlockEntity> SKIZZLEMAN_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SkizzlemanPlushieBlockEntity::new, SKIZZLEMAN_PLUSHIE).build();
+    public static final BlockEntityType<SmallishbeansPlushieBlockEntity> SMALLISHBEANS_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(SmallishbeansPlushieBlockEntity::new, SMALLISHBEANS_PLUSHIE).build();
+    public static final BlockEntityType<StressmonsteronezeroonePlushieBlockEntity> STRESSMONSTERonezeroone_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(StressmonsteronezeroonePlushieBlockEntity::new, STRESSMONSTERonezeroone_PLUSHIE).build();
+    public static final BlockEntityType<TalonPlushieBlockEntity> TALON_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TalonPlushieBlockEntity::new, TALON_PLUSHIE).build();
+    public static final BlockEntityType<TangotekPlushieBlockEntity> TANGOTEK_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(TangotekPlushieBlockEntity::new, TANGOTEK_PLUSHIE).build();
+    public static final BlockEntityType<VintagebeefPlushieBlockEntity> VINTAGEBEEF_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(VintagebeefPlushieBlockEntity::new, VINTAGEBEEF_PLUSHIE).build();
+    public static final BlockEntityType<XbcraftedPlushieBlockEntity> XBCRAFTED_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(XbcraftedPlushieBlockEntity::new, XBCRAFTED_PLUSHIE).build();
+    public static final BlockEntityType<XisumaPlushieBlockEntity> XISUMA_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(XisumaPlushieBlockEntity::new, XISUMA_PLUSHIE).build();
+    public static final BlockEntityType<YahiamicePlushieBlockEntity> YAHIAMICE_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(YahiamicePlushieBlockEntity::new, YAHIAMICE_PLUSHIE).build();
+    public static final BlockEntityType<ZedaphPlushieBlockEntity> ZEDAPH_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ZedaphPlushieBlockEntity::new, ZEDAPH_PLUSHIE).build();
+    public static final BlockEntityType<ZombiecleoPlushieBlockEntity> ZOMBIECLEO_PLUSHIE_BLOCK_ENTITY = BlockEntityType.Builder.create(ZombiecleoPlushieBlockEntity::new, ZOMBIECLEO_PLUSHIE).build(); //this comment is autogenerated
 
     public static void registering() {
         Plushified.LOGGER.info("OMG! BlockEntity registry...");
@@ -1076,9 +1545,6 @@ public class BlockEntityRegistry {
                 Identifier.of(Plushified.MOD_ID, "nurofen_plushie_block_entity"),
                 NUROFEN_PLUSHIE_BLOCK_ENTITY);
         Registry.register(Registries.BLOCK_ENTITY_TYPE,
-                Identifier.of(Plushified.MOD_ID, "obsidiantime69_plushie_block_entity"),
-                OBSIDIANTIMEsixnine_PLUSHIE_BLOCK_ENTITY);
-        Registry.register(Registries.BLOCK_ENTITY_TYPE,
                 Identifier.of(Plushified.MOD_ID, "obsi_plushie_block_entity"),
                 OBSI_PLUSHIE_BLOCK_ENTITY);
         Registry.register(Registries.BLOCK_ENTITY_TYPE,
@@ -1109,9 +1575,6 @@ public class BlockEntityRegistry {
                 Identifier.of(Plushified.MOD_ID, "purpled_plushie_block_entity"),
                 PURPLED_PLUSHIE_BLOCK_ENTITY);
         Registry.register(Registries.BLOCK_ENTITY_TYPE,
-                Identifier.of(Plushified.MOD_ID, "pwgood_plushie_block_entity"),
-                PWGOOD_PLUSHIE_BLOCK_ENTITY);
-        Registry.register(Registries.BLOCK_ENTITY_TYPE,
                 Identifier.of(Plushified.MOD_ID, "pwgoood_plushie_block_entity"),
                 PWGOOOD_PLUSHIE_BLOCK_ENTITY);
         Registry.register(Registries.BLOCK_ENTITY_TYPE,
@@ -1137,6 +1600,213 @@ public class BlockEntityRegistry {
                 SANHEZ_PLUSHIE_BLOCK_ENTITY);
         Registry.register(Registries.BLOCK_ENTITY_TYPE,
                 Identifier.of(Plushified.MOD_ID, "sapnap_plushie_block_entity"),
-                SAPNAP_PLUSHIE_BLOCK_ENTITY); //this comment is autogenerated
+                SAPNAP_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "sb737_plushie_block_entity"),
+                SBseventhreeseven_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "secb_plushie_block_entity"),
+                SECB_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "sirpiligrim_plushie_block_entity"),
+                SIRPILIGRIM_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "skeppy_plushie_block_entity"),
+                SKEPPY_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "slovenof_plushie_block_entity"),
+                SLOVENOF_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "smmassh_plushie_block_entity"),
+                SMMASSH_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "sneegsnag_plushie_block_entity"),
+                SNEEGSNAG_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "snrgiraffe_plushie_block_entity"),
+                SNRGIRAFFE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "spepticle_plushie_block_entity"),
+                SPEPTICLE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "spokeishere_plushie_block_entity"),
+                SPOKEISHERE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "squiddo_plushie_block_entity"),
+                SQUIDDO_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "stalin_plushie_block_entity"),
+                STALIN_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "techno_plushie_block_entity"),
+                TECHNO_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "theklyde_plushie_block_entity"),
+                THEKLYDE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "theterrain_plushie_block_entity"),
+                THETERRAIN_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "tommyinnit_plushie_block_entity"),
+                TOMMYINNIT_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "tubbo_plushie_block_entity"),
+                TUBBO_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "tuviku_plushie_block_entity"),
+                TUVIKU_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vacmakac_plushie_block_entity"),
+                VACMAKAC_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "venazar_plushie_block_entity"),
+                VENAZAR_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "verylouder_plushie_block_entity"),
+                VERYLOUDER_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vikkstar123_plushie_block_entity"),
+                VIKKSTARonetwothree_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vipsss_plushie_block_entity"),
+                VIPSSS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vmuted_plushie_block_entity"),
+                VMUTED_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vort3xdragon_plushie_block_entity"),
+                VORTthreeXDRAGON_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "wemmbu_plushie_block_entity"),
+                WEMMBU_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "wilbursoot_plushie_block_entity"),
+                WILBURSOOT_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "winsweep_plushie_block_entity"),
+                WINSWEEP_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "woogiex_plushie_block_entity"),
+                WOOGIEX_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "yeah_jaron_plushie_block_entity"),
+                YEAH_JARON_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "zakviel_plushie_block_entity"),
+                ZAKVIEL_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "zmeec_plushie_block_entity"),
+                ZMEEC_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "zmeevig_plushie_block_entity"),
+                ZMEEVIG_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "_heo__plushie_block_entity"),
+                _HEO__PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "8onfire_plushie_block_entity"),
+                eightONFIRE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "astronyu_plushie_block_entity"),
+                ASTRONYU_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "bdoubleo100_plushie_block_entity"),
+                BDOUBLEOonezerozero_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "cubfan135_plushie_block_entity"),
+                CUBFANonethreefive_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "docm77_plushie_block_entity"),
+                DOCMsevenseven_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "falsesymmetry_plushie_block_entity"),
+                FALSESYMMETRY_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "fowr0_plushie_block_entity"),
+                FOWRzero_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "freakgenius_plushie_block_entity"),
+                FREAKGENIUS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "geminitay_plushie_block_entity"),
+                GEMINITAY_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "goodtimeswithscar_plushie_block_entity"),
+                GOODTIMESWITHSCAR_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "grian_plushie_block_entity"),
+                GRIAN_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "hypnotizd_plushie_block_entity"),
+                HYPNOTIZD_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "ijevin_plushie_block_entity"),
+                IJEVIN_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "impulsesv_plushie_block_entity"),
+                IMPULSESV_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "iskall85_plushie_block_entity"),
+                ISKALLeightfive_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "joehillssays_plushie_block_entity"),
+                JOEHILLSSAYS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "keralis_plushie_block_entity"),
+                KERALIS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "kiricattus_plushie_block_entity"),
+                KIRICATTUS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "moriyashiine_plushie_block_entity"),
+                MORIYASHIINE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "mumbojumbo_plushie_block_entity"),
+                MUMBOJUMBO_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "noxintrus_plushie_block_entity"),
+                NOXINTRUS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "pearlescentmoon_plushie_block_entity"),
+                PEARLESCENTMOON_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "rendog_plushie_block_entity"),
+                RENDOG_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "sillviatv_plushie_block_entity"),
+                SILLVIATV_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "skizzleman_plushie_block_entity"),
+                SKIZZLEMAN_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "smallishbeans_plushie_block_entity"),
+                SMALLISHBEANS_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "stressmonster101_plushie_block_entity"),
+                STRESSMONSTERonezeroone_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "talon_plushie_block_entity"),
+                TALON_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "tangotek_plushie_block_entity"),
+                TANGOTEK_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "vintagebeef_plushie_block_entity"),
+                VINTAGEBEEF_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "xbcrafted_plushie_block_entity"),
+                XBCRAFTED_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "xisuma_plushie_block_entity"),
+                XISUMA_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "yahiamice_plushie_block_entity"),
+                YAHIAMICE_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "zedaph_plushie_block_entity"),
+                ZEDAPH_PLUSHIE_BLOCK_ENTITY);
+        Registry.register(Registries.BLOCK_ENTITY_TYPE,
+                Identifier.of(Plushified.MOD_ID, "zombiecleo_plushie_block_entity"),
+                ZOMBIECLEO_PLUSHIE_BLOCK_ENTITY); //this comment is autogenerated
     }
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/freakgenius_plushie",
+  "textures": {
+    "all": "plushified:block/freakgenius_plushie",
+    "particle": "plushified:block/freakgenius_plushie",
+    "0": "plushified:block/freakgenius_plushie"
+  },
+  "render_type": "translusent"
+}

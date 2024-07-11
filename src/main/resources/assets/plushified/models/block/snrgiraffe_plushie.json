@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/snrgiraffe_plushie",
+  "textures": {
+    "all": "plushified:block/snrgiraffe_plushie",
+    "particle": "plushified:block/snrgiraffe_plushie",
+    "0": "plushified:block/snrgiraffe_plushie"
+  },
+  "render_type": "translusent"
+}

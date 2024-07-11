@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/vort3xdragon_plushie",
+  "textures": {
+    "all": "plushified:block/vort3xdragon_plushie",
+    "particle": "plushified:block/vort3xdragon_plushie",
+    "0": "plushified:block/vort3xdragon_plushie"
+  },
+  "render_type": "translusent"
+}

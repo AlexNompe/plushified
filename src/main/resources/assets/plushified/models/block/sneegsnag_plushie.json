@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/sneegsnag_plushie",
+  "textures": {
+    "all": "plushified:block/sneegsnag_plushie",
+    "particle": "plushified:block/sneegsnag_plushie",
+    "0": "plushified:block/sneegsnag_plushie"
+  },
+  "render_type": "translusent"
+}

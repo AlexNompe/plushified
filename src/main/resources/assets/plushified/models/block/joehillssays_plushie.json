@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/joehillssays_plushie",
+  "textures": {
+    "all": "plushified:block/joehillssays_plushie",
+    "particle": "plushified:block/joehillssays_plushie",
+    "0": "plushified:block/joehillssays_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/impulsesv_plushie",
+  "textures": {
+    "all": "plushified:block/impulsesv_plushie",
+    "particle": "plushified:block/impulsesv_plushie",
+    "0": "plushified:block/impulsesv_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/skizzleman_plushie",
+  "textures": {
+    "all": "plushified:block/skizzleman_plushie",
+    "particle": "plushified:block/skizzleman_plushie",
+    "0": "plushified:block/skizzleman_plushie"
+  },
+  "render_type": "translusent"
+}

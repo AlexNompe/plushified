@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/tuviku_plushie",
+  "textures": {
+    "all": "plushified:block/tuviku_plushie",
+    "particle": "plushified:block/tuviku_plushie",
+    "0": "plushified:block/tuviku_plushie"
+  },
+  "render_type": "translusent"
+}

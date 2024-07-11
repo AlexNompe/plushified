@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/spepticle_plushie",
+  "textures": {
+    "all": "plushified:block/spepticle_plushie",
+    "particle": "plushified:block/spepticle_plushie",
+    "0": "plushified:block/spepticle_plushie"
+  },
+  "render_type": "translusent"
+}

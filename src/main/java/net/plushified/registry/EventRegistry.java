@@ -44,6 +44,9 @@ public class EventRegistry {
         LOOT_TABLES.add(LootTables.DESERT_WELL_ARCHAEOLOGY);
         LOOT_TABLES.add(LootTables.END_CITY_TREASURE_CHEST);
         LOOT_TABLES.add(LootTables.FISHING_TREASURE_GAMEPLAY);
+        LOOT_TABLES.add(LootTables.FISHING_GAMEPLAY);
+        LOOT_TABLES.add(LootTables.FISHING_FISH_GAMEPLAY);
+        LOOT_TABLES.add(LootTables.FISHING_JUNK_GAMEPLAY);
         LOOT_TABLES.add(LootTables.HERO_OF_THE_VILLAGE_ARMORER_GIFT_GAMEPLAY);
         LOOT_TABLES.add(LootTables.HERO_OF_THE_VILLAGE_BUTCHER_GIFT_GAMEPLAY);
         LOOT_TABLES.add(LootTables.HERO_OF_THE_VILLAGE_CARTOGRAPHER_GIFT_GAMEPLAY);
@@ -63,7 +66,6 @@ public class EventRegistry {
         LOOT_TABLES.add(LootTables.NETHER_BRIDGE_CHEST);
         LOOT_TABLES.add(LootTables.OCEAN_RUIN_COLD_ARCHAEOLOGY);
         LOOT_TABLES.add(LootTables.OCEAN_RUIN_WARM_ARCHAEOLOGY);
-        LOOT_TABLES.add(LootTables.OMINOUS_TRIAL_CHAMBER_CONSUMABLES_SPAWNER);
         LOOT_TABLES.add(LootTables.PIGLIN_BARTERING_GAMEPLAY);
         LOOT_TABLES.add(LootTables.PILLAGER_OUTPOST_CHEST);
         LOOT_TABLES.add(LootTables.RUINED_PORTAL_CHEST);
@@ -77,19 +79,7 @@ public class EventRegistry {
         LOOT_TABLES.add(LootTables.STRONGHOLD_LIBRARY_CHEST);
         LOOT_TABLES.add(LootTables.TRAIL_RUINS_COMMON_ARCHAEOLOGY);
         LOOT_TABLES.add(LootTables.TRAIL_RUINS_RARE_ARCHAEOLOGY);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_CORRIDOR_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_ENTRANCE_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_INTERSECTION_CHEST);
         LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_INTERSECTION_BARREL_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_COMMON_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_OMINOUS_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_OMINOUS_COMMON_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_OMINOUS_RARE_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_OMINOUS_UNIQUE_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_RARE_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_REWARD_UNIQUE_CHEST);
-        LOOT_TABLES.add(LootTables.TRIAL_CHAMBERS_SUPPLY_CHEST);
         LOOT_TABLES.add(LootTables.UNDERWATER_RUIN_BIG_CHEST);
         LOOT_TABLES.add(LootTables.UNDERWATER_RUIN_SMALL_CHEST);
         LOOT_TABLES.add(LootTables.VILLAGE_ARMORER_CHEST);
@@ -128,7 +118,7 @@ public class EventRegistry {
     public static void addItemToLootTable(RegistryKey<LootTable> tableId, Item item, Integer weight) {
         LootTableEvents.MODIFY.register((key, tableBuilder, source) -> {
             if (source.isBuiltin() && tableId.equals(key)) {
-                tableBuilder.modifyPools(poolBuilder -> poolBuilder.with(ItemEntry.builder(item).conditionally(RandomChanceLootCondition.builder(0.025f/PLUSHIES.length)).weight(weight)));
+                tableBuilder.modifyPools(poolBuilder -> poolBuilder.with(ItemEntry.builder(item).conditionally(RandomChanceLootCondition.builder(0.005f)).weight(weight)));
             }
         });
     }

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/sillviatv_plushie",
+  "textures": {
+    "all": "plushified:block/sillviatv_plushie",
+    "particle": "plushified:block/sillviatv_plushie",
+    "0": "plushified:block/sillviatv_plushie"
+  },
+  "render_type": "translusent"
+}

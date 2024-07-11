@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/vacmakac_plushie",
+  "textures": {
+    "all": "plushified:block/vacmakac_plushie",
+    "particle": "plushified:block/vacmakac_plushie",
+    "0": "plushified:block/vacmakac_plushie"
+  },
+  "render_type": "translusent"
+}

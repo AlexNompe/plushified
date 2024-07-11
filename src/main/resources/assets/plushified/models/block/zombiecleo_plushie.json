@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/zombiecleo_plushie",
+  "textures": {
+    "all": "plushified:block/zombiecleo_plushie",
+    "particle": "plushified:block/zombiecleo_plushie",
+    "0": "plushified:block/zombiecleo_plushie"
+  },
+  "render_type": "translusent"
+}

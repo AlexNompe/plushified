@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/theterrain_plushie",
+  "textures": {
+    "all": "plushified:block/theterrain_plushie",
+    "particle": "plushified:block/theterrain_plushie",
+    "0": "plushified:block/theterrain_plushie"
+  },
+  "render_type": "translusent"
+}

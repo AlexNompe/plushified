@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/fowr0_plushie",
+  "textures": {
+    "all": "plushified:block/fowr0_plushie",
+    "particle": "plushified:block/fowr0_plushie",
+    "0": "plushified:block/fowr0_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/8onfire_plushie",
+  "textures": {
+    "all": "plushified:block/8onfire_plushie",
+    "particle": "plushified:block/8onfire_plushie",
+    "0": "plushified:block/8onfire_plushie"
+  },
+  "render_type": "translusent"
+}

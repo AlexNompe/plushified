@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/hypnotizd_plushie",
+  "textures": {
+    "all": "plushified:block/hypnotizd_plushie",
+    "particle": "plushified:block/hypnotizd_plushie",
+    "0": "plushified:block/hypnotizd_plushie"
+  },
+  "render_type": "translusent"
+}

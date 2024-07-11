@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/venazar_plushie",
+  "textures": {
+    "all": "plushified:block/venazar_plushie",
+    "particle": "plushified:block/venazar_plushie",
+    "0": "plushified:block/venazar_plushie"
+  },
+  "render_type": "translusent"
+}

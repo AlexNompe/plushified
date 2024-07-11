@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/yeah_jaron_plushie",
+  "textures": {
+    "all": "plushified:block/yeah_jaron_plushie",
+    "particle": "plushified:block/yeah_jaron_plushie",
+    "0": "plushified:block/yeah_jaron_plushie"
+  },
+  "render_type": "translusent"
+}

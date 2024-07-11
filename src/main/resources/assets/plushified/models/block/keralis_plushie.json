@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/keralis_plushie",
+  "textures": {
+    "all": "plushified:block/keralis_plushie",
+    "particle": "plushified:block/keralis_plushie",
+    "0": "plushified:block/keralis_plushie"
+  },
+  "render_type": "translusent"
+}

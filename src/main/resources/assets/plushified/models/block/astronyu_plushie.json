@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/astronyu_plushie",
+  "textures": {
+    "all": "plushified:block/astronyu_plushie",
+    "particle": "plushified:block/astronyu_plushie",
+    "0": "plushified:block/astronyu_plushie"
+  },
+  "render_type": "translusent"
+}

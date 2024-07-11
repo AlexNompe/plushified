@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/_heo__plushie",
+  "textures": {
+    "all": "plushified:block/_heo__plushie",
+    "particle": "plushified:block/_heo__plushie",
+    "0": "plushified:block/_heo__plushie"
+  },
+  "render_type": "translusent"
+}

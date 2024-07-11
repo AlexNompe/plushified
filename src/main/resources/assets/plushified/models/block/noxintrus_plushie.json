@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/noxintrus_plushie",
+  "textures": {
+    "all": "plushified:block/noxintrus_plushie",
+    "particle": "plushified:block/noxintrus_plushie",
+    "0": "plushified:block/noxintrus_plushie"
+  },
+  "render_type": "translusent"
+}

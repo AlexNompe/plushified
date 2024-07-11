@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/goodtimeswithscar_plushie",
+  "textures": {
+    "all": "plushified:block/goodtimeswithscar_plushie",
+    "particle": "plushified:block/goodtimeswithscar_plushie",
+    "0": "plushified:block/goodtimeswithscar_plushie"
+  },
+  "render_type": "translusent"
+}

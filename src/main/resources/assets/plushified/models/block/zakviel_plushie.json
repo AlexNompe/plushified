@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/zakviel_plushie",
+  "textures": {
+    "all": "plushified:block/zakviel_plushie",
+    "particle": "plushified:block/zakviel_plushie",
+    "0": "plushified:block/zakviel_plushie"
+  },
+  "render_type": "translusent"
+}

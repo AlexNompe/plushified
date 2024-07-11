@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/cubfan135_plushie",
+  "textures": {
+    "all": "plushified:block/cubfan135_plushie",
+    "particle": "plushified:block/cubfan135_plushie",
+    "0": "plushified:block/cubfan135_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/woogiex_plushie",
+  "textures": {
+    "all": "plushified:block/woogiex_plushie",
+    "particle": "plushified:block/woogiex_plushie",
+    "0": "plushified:block/woogiex_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/vikkstar123_plushie",
+  "textures": {
+    "all": "plushified:block/vikkstar123_plushie",
+    "particle": "plushified:block/vikkstar123_plushie",
+    "0": "plushified:block/vikkstar123_plushie"
+  },
+  "render_type": "translusent"
+}

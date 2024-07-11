@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/vmuted_plushie",
+  "textures": {
+    "all": "plushified:block/vmuted_plushie",
+    "particle": "plushified:block/vmuted_plushie",
+    "0": "plushified:block/vmuted_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1120,18 +1120,6 @@ public class BlockRegistry {
                     NurofenPlushieBlockEntity::tick);
         }
     };
-    public static final Block OBSIDIANTIMEsixnine_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
-        @Override
-        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-            return new ObsidiantimesixninePlushieBlockEntity(pos, state);
-        }
-        @Nullable
-        @Override
-        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-            return validateTicker(type, OBSIDIANTIMEsixnine_PLUSHIE_BLOCK_ENTITY,
-                    ObsidiantimesixninePlushieBlockEntity::tick);
-        }
-    };
     public static final Block OBSI_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
         @Override
         public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
@@ -1252,18 +1240,6 @@ public class BlockRegistry {
                     PurpledPlushieBlockEntity::tick);
         }
     };
-    public static final Block PWGOOD_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
-        @Override
-        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
-            return new PwgoodPlushieBlockEntity(pos, state);
-        }
-        @Nullable
-        @Override
-        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
-            return validateTicker(type, PWGOOD_PLUSHIE_BLOCK_ENTITY,
-                    PwgoodPlushieBlockEntity::tick);
-        }
-    };
     public static final Block PWGOOOD_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
         @Override
         public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
@@ -1371,9 +1347,837 @@ public class BlockRegistry {
             return validateTicker(type, SAPNAP_PLUSHIE_BLOCK_ENTITY,
                     SapnapPlushieBlockEntity::tick);
         }
+    };
+    public static final Block SBseventhreeseven_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SbseventhreesevenPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SBseventhreeseven_PLUSHIE_BLOCK_ENTITY,
+                    SbseventhreesevenPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SECB_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SecbPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SECB_PLUSHIE_BLOCK_ENTITY,
+                    SecbPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SIRPILIGRIM_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SirpiligrimPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SIRPILIGRIM_PLUSHIE_BLOCK_ENTITY,
+                    SirpiligrimPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SKEPPY_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SkeppyPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SKEPPY_PLUSHIE_BLOCK_ENTITY,
+                    SkeppyPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SLOVENOF_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SlovenofPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SLOVENOF_PLUSHIE_BLOCK_ENTITY,
+                    SlovenofPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SMMASSH_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SmmasshPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SMMASSH_PLUSHIE_BLOCK_ENTITY,
+                    SmmasshPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SNEEGSNAG_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SneegsnagPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SNEEGSNAG_PLUSHIE_BLOCK_ENTITY,
+                    SneegsnagPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SNRGIRAFFE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SnrgiraffePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SNRGIRAFFE_PLUSHIE_BLOCK_ENTITY,
+                    SnrgiraffePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SPEPTICLE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SpepticlePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SPEPTICLE_PLUSHIE_BLOCK_ENTITY,
+                    SpepticlePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SPOKEISHERE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SpokeisherePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SPOKEISHERE_PLUSHIE_BLOCK_ENTITY,
+                    SpokeisherePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SQUIDDO_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SquiddoPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SQUIDDO_PLUSHIE_BLOCK_ENTITY,
+                    SquiddoPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block STALIN_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new StalinPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, STALIN_PLUSHIE_BLOCK_ENTITY,
+                    StalinPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TECHNO_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TechnoPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TECHNO_PLUSHIE_BLOCK_ENTITY,
+                    TechnoPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block THEKLYDE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TheklydePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, THEKLYDE_PLUSHIE_BLOCK_ENTITY,
+                    TheklydePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block THETERRAIN_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TheterrainPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, THETERRAIN_PLUSHIE_BLOCK_ENTITY,
+                    TheterrainPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TOMMYINNIT_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TommyinnitPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TOMMYINNIT_PLUSHIE_BLOCK_ENTITY,
+                    TommyinnitPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TUBBO_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TubboPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TUBBO_PLUSHIE_BLOCK_ENTITY,
+                    TubboPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TUVIKU_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TuvikuPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TUVIKU_PLUSHIE_BLOCK_ENTITY,
+                    TuvikuPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VACMAKAC_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VacmakacPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VACMAKAC_PLUSHIE_BLOCK_ENTITY,
+                    VacmakacPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VENAZAR_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VenazarPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VENAZAR_PLUSHIE_BLOCK_ENTITY,
+                    VenazarPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VERYLOUDER_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VerylouderPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VERYLOUDER_PLUSHIE_BLOCK_ENTITY,
+                    VerylouderPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VIKKSTARonetwothree_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VikkstaronetwothreePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VIKKSTARonetwothree_PLUSHIE_BLOCK_ENTITY,
+                    VikkstaronetwothreePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VIPSSS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VipsssPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VIPSSS_PLUSHIE_BLOCK_ENTITY,
+                    VipsssPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VMUTED_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VmutedPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VMUTED_PLUSHIE_BLOCK_ENTITY,
+                    VmutedPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VORTthreeXDRAGON_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VortthreexdragonPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VORTthreeXDRAGON_PLUSHIE_BLOCK_ENTITY,
+                    VortthreexdragonPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block WEMMBU_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new WemmbuPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, WEMMBU_PLUSHIE_BLOCK_ENTITY,
+                    WemmbuPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block WILBURSOOT_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new WilbursootPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, WILBURSOOT_PLUSHIE_BLOCK_ENTITY,
+                    WilbursootPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block WINSWEEP_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new WinsweepPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, WINSWEEP_PLUSHIE_BLOCK_ENTITY,
+                    WinsweepPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block WOOGIEX_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new WoogiexPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, WOOGIEX_PLUSHIE_BLOCK_ENTITY,
+                    WoogiexPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block YEAH_JARON_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new Yeah_jaronPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, YEAH_JARON_PLUSHIE_BLOCK_ENTITY,
+                    Yeah_jaronPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ZAKVIEL_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ZakvielPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ZAKVIEL_PLUSHIE_BLOCK_ENTITY,
+                    ZakvielPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ZMEEC_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ZmeecPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ZMEEC_PLUSHIE_BLOCK_ENTITY,
+                    ZmeecPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ZMEEVIG_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ZmeevigPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ZMEEVIG_PLUSHIE_BLOCK_ENTITY,
+                    ZmeevigPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block _HEO__PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new _heo_PlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, _HEO__PLUSHIE_BLOCK_ENTITY,
+                    _heo_PlushieBlockEntity::tick);
+        }
+    };
+    public static final Block eightONFIRE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new eightonfirePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, eightONFIRE_PLUSHIE_BLOCK_ENTITY,
+                    eightonfirePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ASTRONYU_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new AstronyuPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ASTRONYU_PLUSHIE_BLOCK_ENTITY,
+                    AstronyuPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block BDOUBLEOonezerozero_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new BdoubleoonezerozeroPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, BDOUBLEOonezerozero_PLUSHIE_BLOCK_ENTITY,
+                    BdoubleoonezerozeroPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block CUBFANonethreefive_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new CubfanonethreefivePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, CUBFANonethreefive_PLUSHIE_BLOCK_ENTITY,
+                    CubfanonethreefivePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block DOCMsevenseven_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new DocmsevensevenPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, DOCMsevenseven_PLUSHIE_BLOCK_ENTITY,
+                    DocmsevensevenPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block FALSESYMMETRY_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new FalsesymmetryPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, FALSESYMMETRY_PLUSHIE_BLOCK_ENTITY,
+                    FalsesymmetryPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block FOWRzero_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new FowrzeroPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, FOWRzero_PLUSHIE_BLOCK_ENTITY,
+                    FowrzeroPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block FREAKGENIUS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new FreakgeniusPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, FREAKGENIUS_PLUSHIE_BLOCK_ENTITY,
+                    FreakgeniusPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block GEMINITAY_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new GeminitayPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, GEMINITAY_PLUSHIE_BLOCK_ENTITY,
+                    GeminitayPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block GOODTIMESWITHSCAR_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new GoodtimeswithscarPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, GOODTIMESWITHSCAR_PLUSHIE_BLOCK_ENTITY,
+                    GoodtimeswithscarPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block GRIAN_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new GrianPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, GRIAN_PLUSHIE_BLOCK_ENTITY,
+                    GrianPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block HYPNOTIZD_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new HypnotizdPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, HYPNOTIZD_PLUSHIE_BLOCK_ENTITY,
+                    HypnotizdPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block IJEVIN_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new IjevinPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, IJEVIN_PLUSHIE_BLOCK_ENTITY,
+                    IjevinPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block IMPULSESV_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ImpulsesvPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, IMPULSESV_PLUSHIE_BLOCK_ENTITY,
+                    ImpulsesvPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ISKALLeightfive_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new IskalleightfivePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ISKALLeightfive_PLUSHIE_BLOCK_ENTITY,
+                    IskalleightfivePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block JOEHILLSSAYS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new JoehillssaysPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, JOEHILLSSAYS_PLUSHIE_BLOCK_ENTITY,
+                    JoehillssaysPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block KERALIS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new KeralisPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, KERALIS_PLUSHIE_BLOCK_ENTITY,
+                    KeralisPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block KIRICATTUS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new KiricattusPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, KIRICATTUS_PLUSHIE_BLOCK_ENTITY,
+                    KiricattusPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block MORIYASHIINE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new MoriyashiinePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, MORIYASHIINE_PLUSHIE_BLOCK_ENTITY,
+                    MoriyashiinePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block MUMBOJUMBO_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new MumbojumboPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, MUMBOJUMBO_PLUSHIE_BLOCK_ENTITY,
+                    MumbojumboPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block NOXINTRUS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new NoxintrusPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, NOXINTRUS_PLUSHIE_BLOCK_ENTITY,
+                    NoxintrusPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block PEARLESCENTMOON_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new PearlescentmoonPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, PEARLESCENTMOON_PLUSHIE_BLOCK_ENTITY,
+                    PearlescentmoonPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block RENDOG_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new RendogPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, RENDOG_PLUSHIE_BLOCK_ENTITY,
+                    RendogPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SILLVIATV_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SillviatvPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SILLVIATV_PLUSHIE_BLOCK_ENTITY,
+                    SillviatvPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SKIZZLEMAN_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SkizzlemanPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SKIZZLEMAN_PLUSHIE_BLOCK_ENTITY,
+                    SkizzlemanPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block SMALLISHBEANS_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new SmallishbeansPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, SMALLISHBEANS_PLUSHIE_BLOCK_ENTITY,
+                    SmallishbeansPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block STRESSMONSTERonezeroone_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new StressmonsteronezeroonePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, STRESSMONSTERonezeroone_PLUSHIE_BLOCK_ENTITY,
+                    StressmonsteronezeroonePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TALON_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TalonPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TALON_PLUSHIE_BLOCK_ENTITY,
+                    TalonPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block TANGOTEK_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new TangotekPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, TANGOTEK_PLUSHIE_BLOCK_ENTITY,
+                    TangotekPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block VINTAGEBEEF_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new VintagebeefPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, VINTAGEBEEF_PLUSHIE_BLOCK_ENTITY,
+                    VintagebeefPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block XBCRAFTED_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new XbcraftedPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, XBCRAFTED_PLUSHIE_BLOCK_ENTITY,
+                    XbcraftedPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block XISUMA_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new XisumaPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, XISUMA_PLUSHIE_BLOCK_ENTITY,
+                    XisumaPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block YAHIAMICE_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new YahiamicePlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, YAHIAMICE_PLUSHIE_BLOCK_ENTITY,
+                    YahiamicePlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ZEDAPH_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ZedaphPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ZEDAPH_PLUSHIE_BLOCK_ENTITY,
+                    ZedaphPlushieBlockEntity::tick);
+        }
+    };
+    public static final Block ZOMBIECLEO_PLUSHIE = new Plushie(Block.Settings.create().strength(1.0f).sounds(PLUSHIE_SOUND_GROUP)) {
+        @Override
+        public @NotNull BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+            return new ZombiecleoPlushieBlockEntity(pos, state);
+        }
+        @Nullable
+        @Override
+        public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
+            return validateTicker(type, ZOMBIECLEO_PLUSHIE_BLOCK_ENTITY,
+                    ZombiecleoPlushieBlockEntity::tick);
+        }
     }; //this comment is autogenerated
 
-    public static final ItemConvertible[] PLUSHIES = new ItemConvertible[]{ALEXNOMPE_PLUSHIE/*array*/,fourCVIT_PLUSHIE/*array*/,ALCEST_M_PLUSHIE/*array*/,ALFEDOV_PLUSHIE/*array*/,ALTTERA__PLUSHIE/*array*/,ANTFROST_PLUSHIE/*array*/,ARATHAIN_PLUSHIE/*array*/,ARLABUS_PLUSHIE/*array*/,ARUYUKI_PLUSHIE/*array*/,ASAI_HATSUYO_PLUSHIE/*array*/,ASHSWAGG_PLUSHIE/*array*/,AWESAMDUDE_PLUSHIE/*array*/,BACONNWAFFLESzero_PLUSHIE/*array*/,BADBOYHALO_PLUSHIE/*array*/,BARSIGOLD_PLUSHIE/*array*/,BEZ_LS_PLUSHIE/*array*/,BLACKHOLE_PLUSHIE/*array*/,BRANZYCRAFT_PLUSHIE/*array*/,BRIM_PLUSHIE/*array*/,CAPTAINPUFFY_PLUSHIE/*array*/,CAPXENOMORPH_PLUSHIE/*array*/,CHECKGOODMAN_PLUSHIE/*array*/,CHIEFXD_PLUSHIE/*array*/,CLOWNPIERCE_PLUSHIE/*array*/,CONNOREATSPANTS_PLUSHIE/*array*/,DEB_PLUSHIE/*array*/,DERAPCHU_PLUSHIE/*array*/,DIAMKEY_PLUSHIE/*array*/,DIANSU_PLUSHIE/*array*/,DLZ_PLUSHIE/*array*/,DOCTORfourT_PLUSHIE/*array*/,DREAM_PLUSHIE/*array*/,DURAWKA_PLUSHIE/*array*/,DUSHENKA__PLUSHIE/*array*/,EBONI_PLUSHIE/*array*/,ECORRIDOR_PLUSHIE/*array*/,EIGHTSIDEDSQUARE_PLUSHIE/*array*/,ERET_PLUSHIE/*array*/,FARADEY_PLUSHIE/*array*/,FELIKTON_PLUSHIE/*array*/,FEREDEN_PLUSHIE/*array*/,FINEK_PLUSHIE/*array*/,FLAMEFRAGS_PLUSHIE/*array*/,FOOLISH_PLUSHIE/*array*/,FUNDY_PLUSHIE/*array*/,GEL_MO_PLUSHIE/*array*/,GEORGENOTFOUND_PLUSHIE/*array*/,GOOSE_PLUSHIE/*array*/,HANNAHXXROSE_PLUSHIE/*array*/,HAYDone__PLUSHIE/*array*/,HBOMBninefour_PLUSHIE/*array*/,HREL_MC_PLUSHIE/*array*/,INAGGY_PLUSHIE/*array*/,JACKMANIFOLD_PLUSHIE/*array*/,JAY_POKERMAN_PLUSHIE/*array*/,JEPEXX_PLUSHIE/*array*/,JEREMI_PLUSHIE/*array*/,JUMPERWHO_PLUSHIE/*array*/,JUSTKABOODLE_PLUSHIE/*array*/,JUST_S_PLUSHIE/*array*/,KADOTANUKLES_PLUSHIE/*array*/,KARLJACOBS_PLUSHIE/*array*/,KAVKIN_PLUSHIE/*array*/,KETRINCYST_PLUSHIE/*array*/,KLASHRAICK_PLUSHIE/*array*/,KLUV_V_PLUSHIE/*array*/,KROLIKMUN_PLUSHIE/*array*/,LAMPCAT_PLUSHIE/*array*/,LEOWzeroOK_PLUSHIE/*array*/,LORDSANTOS_PLUSHIE/*array*/,LUX_PLUSHIE/*array*/,MAGMUSTX_PLUSHIE/*array*/,MAKAFOLZ_PLUSHIE/*array*/,MANEPEAR_PLUSHIE/*array*/,MAPICC_PLUSHIE/*array*/,MARTSCOMM_PLUSHIE/*array*/,MASK_PLUSHIE/*array*/,MICHAELMCCHILL_PLUSHIE/*array*/,MINUTETECH_PLUSHIE/*array*/,MOoneVINE_PLUSHIE/*array*/,MODDY_PLUSHIE/*array*/,MRCUBEsix_PLUSHIE/*array*/,MRPUPE_PLUSHIE/*array*/,M_MAFINEV_PLUSHIE/*array*/,NAGIBAYKA_PLUSHIE/*array*/,NEADAPTAR_PLUSHIE/*array*/,NERKIN__PLUSHIE/*array*/,NIHACHU_PLUSHIE/*array*/,NIKI_PLUSHIE/*array*/,NOVIKONY_PLUSHIE/*array*/,NUROFEN_PLUSHIE/*array*/,OBSIDIANTIMEsixnine_PLUSHIE/*array*/,OBSI_PLUSHIE/*array*/,OLYACHESAPIK_PLUSHIE/*array*/,OPTIMIST_EZZ_PLUSHIE/*array*/,PANGI_PLUSHIE/*array*/,PEENTAR_PLUSHIE/*array*/,PHILZA_PLUSHIE/*array*/,PLANETLORD_PLUSHIE/*array*/,PONK_PLUSHIE/*array*/,PRINCEZAM_PLUSHIE/*array*/,PURPLED_PLUSHIE/*array*/,PWGOOD_PLUSHIE/*array*/,PWGOOOD_PLUSHIE/*array*/,QUACKITY_PLUSHIE/*array*/,RfourTMAID_PLUSHIE/*array*/,RANBOO_PLUSHIE/*array*/,REDDOONS_PLUSHIE/*array*/,RESOTA_PLUSHIE/*array*/,ROSHAMBOGAMES_PLUSHIE/*array*/,SANHEZ_PLUSHIE/*array*/,SAPNAP_PLUSHIE/*array*/};
+    public static final ItemConvertible[] PLUSHIES = new ItemConvertible[]{ALEXNOMPE_PLUSHIE/*array*/,fourCVIT_PLUSHIE/*array*/,ALCEST_M_PLUSHIE/*array*/,ALFEDOV_PLUSHIE/*array*/,ALTTERA__PLUSHIE/*array*/,ANTFROST_PLUSHIE/*array*/,ARATHAIN_PLUSHIE/*array*/,ARLABUS_PLUSHIE/*array*/,ARUYUKI_PLUSHIE/*array*/,ASAI_HATSUYO_PLUSHIE/*array*/,ASHSWAGG_PLUSHIE/*array*/,AWESAMDUDE_PLUSHIE/*array*/,BACONNWAFFLESzero_PLUSHIE/*array*/,BADBOYHALO_PLUSHIE/*array*/,BARSIGOLD_PLUSHIE/*array*/,BEZ_LS_PLUSHIE/*array*/,BLACKHOLE_PLUSHIE/*array*/,BRANZYCRAFT_PLUSHIE/*array*/,BRIM_PLUSHIE/*array*/,CAPTAINPUFFY_PLUSHIE/*array*/,CAPXENOMORPH_PLUSHIE/*array*/,CHECKGOODMAN_PLUSHIE/*array*/,CHIEFXD_PLUSHIE/*array*/,CLOWNPIERCE_PLUSHIE/*array*/,CONNOREATSPANTS_PLUSHIE/*array*/,DEB_PLUSHIE/*array*/,DERAPCHU_PLUSHIE/*array*/,DIAMKEY_PLUSHIE/*array*/,DIANSU_PLUSHIE/*array*/,DLZ_PLUSHIE/*array*/,DOCTORfourT_PLUSHIE/*array*/,DREAM_PLUSHIE/*array*/,DURAWKA_PLUSHIE/*array*/,DUSHENKA__PLUSHIE/*array*/,EBONI_PLUSHIE/*array*/,ECORRIDOR_PLUSHIE/*array*/,EIGHTSIDEDSQUARE_PLUSHIE/*array*/,ERET_PLUSHIE/*array*/,FARADEY_PLUSHIE/*array*/,FELIKTON_PLUSHIE/*array*/,FEREDEN_PLUSHIE/*array*/,FINEK_PLUSHIE/*array*/,FLAMEFRAGS_PLUSHIE/*array*/,FOOLISH_PLUSHIE/*array*/,FUNDY_PLUSHIE/*array*/,GEL_MO_PLUSHIE/*array*/,GEORGENOTFOUND_PLUSHIE/*array*/,GOOSE_PLUSHIE/*array*/,HANNAHXXROSE_PLUSHIE/*array*/,HAYDone__PLUSHIE/*array*/,HBOMBninefour_PLUSHIE/*array*/,HREL_MC_PLUSHIE/*array*/,INAGGY_PLUSHIE/*array*/,JACKMANIFOLD_PLUSHIE/*array*/,JAY_POKERMAN_PLUSHIE/*array*/,JEPEXX_PLUSHIE/*array*/,JEREMI_PLUSHIE/*array*/,JUMPERWHO_PLUSHIE/*array*/,JUSTKABOODLE_PLUSHIE/*array*/,JUST_S_PLUSHIE/*array*/,KADOTANUKLES_PLUSHIE/*array*/,KARLJACOBS_PLUSHIE/*array*/,KAVKIN_PLUSHIE/*array*/,KETRINCYST_PLUSHIE/*array*/,KLASHRAICK_PLUSHIE/*array*/,KLUV_V_PLUSHIE/*array*/,KROLIKMUN_PLUSHIE/*array*/,LAMPCAT_PLUSHIE/*array*/,LEOWzeroOK_PLUSHIE/*array*/,LORDSANTOS_PLUSHIE/*array*/,LUX_PLUSHIE/*array*/,MAGMUSTX_PLUSHIE/*array*/,MAKAFOLZ_PLUSHIE/*array*/,MANEPEAR_PLUSHIE/*array*/,MAPICC_PLUSHIE/*array*/,MARTSCOMM_PLUSHIE/*array*/,MASK_PLUSHIE/*array*/,MICHAELMCCHILL_PLUSHIE/*array*/,MINUTETECH_PLUSHIE/*array*/,MOoneVINE_PLUSHIE/*array*/,MODDY_PLUSHIE/*array*/,MRCUBEsix_PLUSHIE/*array*/,MRPUPE_PLUSHIE/*array*/,M_MAFINEV_PLUSHIE/*array*/,NAGIBAYKA_PLUSHIE/*array*/,NEADAPTAR_PLUSHIE/*array*/,NERKIN__PLUSHIE/*array*/,NIHACHU_PLUSHIE/*array*/,NIKI_PLUSHIE/*array*/,NOVIKONY_PLUSHIE/*array*/,NUROFEN_PLUSHIE/*array*/,OBSI_PLUSHIE/*array*/,OLYACHESAPIK_PLUSHIE/*array*/,OPTIMIST_EZZ_PLUSHIE/*array*/,PANGI_PLUSHIE/*array*/,PEENTAR_PLUSHIE/*array*/,PHILZA_PLUSHIE/*array*/,PLANETLORD_PLUSHIE/*array*/,PONK_PLUSHIE/*array*/,PRINCEZAM_PLUSHIE/*array*/,PURPLED_PLUSHIE/*array*/,PWGOOOD_PLUSHIE/*array*/,QUACKITY_PLUSHIE/*array*/,RfourTMAID_PLUSHIE/*array*/,RANBOO_PLUSHIE/*array*/,REDDOONS_PLUSHIE/*array*/,RESOTA_PLUSHIE/*array*/,ROSHAMBOGAMES_PLUSHIE/*array*/,SANHEZ_PLUSHIE/*array*/,SAPNAP_PLUSHIE/*array*/,SBseventhreeseven_PLUSHIE/*array*/,SECB_PLUSHIE/*array*/,SIRPILIGRIM_PLUSHIE/*array*/,SKEPPY_PLUSHIE/*array*/,SLOVENOF_PLUSHIE/*array*/,SMMASSH_PLUSHIE/*array*/,SNEEGSNAG_PLUSHIE/*array*/,SNRGIRAFFE_PLUSHIE/*array*/,SPEPTICLE_PLUSHIE/*array*/,SPOKEISHERE_PLUSHIE/*array*/,SQUIDDO_PLUSHIE/*array*/,STALIN_PLUSHIE/*array*/,TECHNO_PLUSHIE/*array*/,THEKLYDE_PLUSHIE/*array*/,THETERRAIN_PLUSHIE/*array*/,TOMMYINNIT_PLUSHIE/*array*/,TUBBO_PLUSHIE/*array*/,TUVIKU_PLUSHIE/*array*/,VACMAKAC_PLUSHIE/*array*/,VENAZAR_PLUSHIE/*array*/,VERYLOUDER_PLUSHIE/*array*/,VIKKSTARonetwothree_PLUSHIE/*array*/,VIPSSS_PLUSHIE/*array*/,VMUTED_PLUSHIE/*array*/,VORTthreeXDRAGON_PLUSHIE/*array*/,WEMMBU_PLUSHIE/*array*/,WILBURSOOT_PLUSHIE/*array*/,WINSWEEP_PLUSHIE/*array*/,WOOGIEX_PLUSHIE/*array*/,YEAH_JARON_PLUSHIE/*array*/,ZAKVIEL_PLUSHIE/*array*/,ZMEEC_PLUSHIE/*array*/,ZMEEVIG_PLUSHIE/*array*/,_HEO__PLUSHIE/*array*/,eightONFIRE_PLUSHIE/*array*/,ASTRONYU_PLUSHIE/*array*/,BDOUBLEOonezerozero_PLUSHIE/*array*/,CUBFANonethreefive_PLUSHIE/*array*/,DOCMsevenseven_PLUSHIE/*array*/,FALSESYMMETRY_PLUSHIE/*array*/,FOWRzero_PLUSHIE/*array*/,FREAKGENIUS_PLUSHIE/*array*/,GEMINITAY_PLUSHIE/*array*/,GOODTIMESWITHSCAR_PLUSHIE/*array*/,GRIAN_PLUSHIE/*array*/,HYPNOTIZD_PLUSHIE/*array*/,IJEVIN_PLUSHIE/*array*/,IMPULSESV_PLUSHIE/*array*/,ISKALLeightfive_PLUSHIE/*array*/,JOEHILLSSAYS_PLUSHIE/*array*/,KERALIS_PLUSHIE/*array*/,KIRICATTUS_PLUSHIE/*array*/,MORIYASHIINE_PLUSHIE/*array*/,MUMBOJUMBO_PLUSHIE/*array*/,NOXINTRUS_PLUSHIE/*array*/,PEARLESCENTMOON_PLUSHIE/*array*/,RENDOG_PLUSHIE/*array*/,SILLVIATV_PLUSHIE/*array*/,SKIZZLEMAN_PLUSHIE/*array*/,SMALLISHBEANS_PLUSHIE/*array*/,STRESSMONSTERonezeroone_PLUSHIE/*array*/,TALON_PLUSHIE/*array*/,TANGOTEK_PLUSHIE/*array*/,VINTAGEBEEF_PLUSHIE/*array*/,XBCRAFTED_PLUSHIE/*array*/,XISUMA_PLUSHIE/*array*/,YAHIAMICE_PLUSHIE/*array*/,ZEDAPH_PLUSHIE/*array*/,ZOMBIECLEO_PLUSHIE/*array*/};
 
     public static void registering() {
         Plushified.LOGGER.info("OMG! Block registry...");
@@ -1469,7 +2273,6 @@ public class BlockRegistry {
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "niki_plushie"), NIKI_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "novikony_plushie"), NOVIKONY_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "nurofen_plushie"), NUROFEN_PLUSHIE);
-        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "obsidiantime69_plushie"), OBSIDIANTIMEsixnine_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "obsi_plushie"), OBSI_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "olyachesapik_plushie"), OLYACHESAPIK_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "optimist_ezz_plushie"), OPTIMIST_EZZ_PLUSHIE);
@@ -1480,7 +2283,6 @@ public class BlockRegistry {
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "ponk_plushie"), PONK_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "princezam_plushie"), PRINCEZAM_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "purpled_plushie"), PURPLED_PLUSHIE);
-        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "pwgood_plushie"), PWGOOD_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "pwgoood_plushie"), PWGOOOD_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "quackity_plushie"), QUACKITY_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "r4tmaid_plushie"), RfourTMAID_PLUSHIE);
@@ -1489,7 +2291,76 @@ public class BlockRegistry {
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "resota_plushie"), RESOTA_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "roshambogames_plushie"), ROSHAMBOGAMES_PLUSHIE);
         RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sanhez_plushie"), SANHEZ_PLUSHIE);
-        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sapnap_plushie"), SAPNAP_PLUSHIE); //this comment is autogenerated
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sapnap_plushie"), SAPNAP_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sb737_plushie"), SBseventhreeseven_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "secb_plushie"), SECB_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sirpiligrim_plushie"), SIRPILIGRIM_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "skeppy_plushie"), SKEPPY_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "slovenof_plushie"), SLOVENOF_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "smmassh_plushie"), SMMASSH_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sneegsnag_plushie"), SNEEGSNAG_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "snrgiraffe_plushie"), SNRGIRAFFE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "spepticle_plushie"), SPEPTICLE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "spokeishere_plushie"), SPOKEISHERE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "squiddo_plushie"), SQUIDDO_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "stalin_plushie"), STALIN_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "techno_plushie"), TECHNO_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "theklyde_plushie"), THEKLYDE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "theterrain_plushie"), THETERRAIN_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "tommyinnit_plushie"), TOMMYINNIT_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "tubbo_plushie"), TUBBO_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "tuviku_plushie"), TUVIKU_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vacmakac_plushie"), VACMAKAC_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "venazar_plushie"), VENAZAR_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "verylouder_plushie"), VERYLOUDER_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vikkstar123_plushie"), VIKKSTARonetwothree_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vipsss_plushie"), VIPSSS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vmuted_plushie"), VMUTED_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vort3xdragon_plushie"), VORTthreeXDRAGON_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "wemmbu_plushie"), WEMMBU_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "wilbursoot_plushie"), WILBURSOOT_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "winsweep_plushie"), WINSWEEP_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "woogiex_plushie"), WOOGIEX_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "yeah_jaron_plushie"), YEAH_JARON_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "zakviel_plushie"), ZAKVIEL_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "zmeec_plushie"), ZMEEC_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "zmeevig_plushie"), ZMEEVIG_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "_heo__plushie"), _HEO__PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "8onfire_plushie"), eightONFIRE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "astronyu_plushie"), ASTRONYU_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "bdoubleo100_plushie"), BDOUBLEOonezerozero_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "cubfan135_plushie"), CUBFANonethreefive_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "docm77_plushie"), DOCMsevenseven_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "falsesymmetry_plushie"), FALSESYMMETRY_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "fowr0_plushie"), FOWRzero_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "freakgenius_plushie"), FREAKGENIUS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "geminitay_plushie"), GEMINITAY_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "goodtimeswithscar_plushie"), GOODTIMESWITHSCAR_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "grian_plushie"), GRIAN_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "hypnotizd_plushie"), HYPNOTIZD_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "ijevin_plushie"), IJEVIN_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "impulsesv_plushie"), IMPULSESV_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "iskall85_plushie"), ISKALLeightfive_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "joehillssays_plushie"), JOEHILLSSAYS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "keralis_plushie"), KERALIS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "kiricattus_plushie"), KIRICATTUS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "moriyashiine_plushie"), MORIYASHIINE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "mumbojumbo_plushie"), MUMBOJUMBO_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "noxintrus_plushie"), NOXINTRUS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "pearlescentmoon_plushie"), PEARLESCENTMOON_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "rendog_plushie"), RENDOG_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "sillviatv_plushie"), SILLVIATV_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "skizzleman_plushie"), SKIZZLEMAN_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "smallishbeans_plushie"), SMALLISHBEANS_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "stressmonster101_plushie"), STRESSMONSTERonezeroone_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "talon_plushie"), TALON_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "tangotek_plushie"), TANGOTEK_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "vintagebeef_plushie"), VINTAGEBEEF_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "xbcrafted_plushie"), XBCRAFTED_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "xisuma_plushie"), XISUMA_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "yahiamice_plushie"), YAHIAMICE_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "zedaph_plushie"), ZEDAPH_PLUSHIE);
+        RegisterBlockItem(Identifier.of(Plushified.MOD_ID, "zombiecleo_plushie"), ZOMBIECLEO_PLUSHIE); //this comment is autogenerated
     }
 
     public static void RegisterBlockItem(Identifier path, Block block) {

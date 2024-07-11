@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/rendog_plushie",
+  "textures": {
+    "all": "plushified:block/rendog_plushie",
+    "particle": "plushified:block/rendog_plushie",
+    "0": "plushified:block/rendog_plushie"
+  },
+  "render_type": "translusent"
+}

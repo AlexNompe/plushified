@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/bdoubleo100_plushie",
+  "textures": {
+    "all": "plushified:block/bdoubleo100_plushie",
+    "particle": "plushified:block/bdoubleo100_plushie",
+    "0": "plushified:block/bdoubleo100_plushie"
+  },
+  "render_type": "translusent"
+}

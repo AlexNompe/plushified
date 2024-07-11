@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/mumbojumbo_plushie",
+  "textures": {
+    "all": "plushified:block/mumbojumbo_plushie",
+    "particle": "plushified:block/mumbojumbo_plushie",
+    "0": "plushified:block/mumbojumbo_plushie"
+  },
+  "render_type": "translusent"
+}

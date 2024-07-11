@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/ijevin_plushie",
+  "textures": {
+    "all": "plushified:block/ijevin_plushie",
+    "particle": "plushified:block/ijevin_plushie",
+    "0": "plushified:block/ijevin_plushie"
+  },
+  "render_type": "translusent"
+}

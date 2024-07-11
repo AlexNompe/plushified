@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/smmassh_plushie",
+  "textures": {
+    "all": "plushified:block/smmassh_plushie",
+    "particle": "plushified:block/smmassh_plushie",
+    "0": "plushified:block/smmassh_plushie"
+  },
+  "render_type": "translusent"
+}

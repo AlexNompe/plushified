@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/secb_plushie",
+  "textures": {
+    "all": "plushified:block/secb_plushie",
+    "particle": "plushified:block/secb_plushie",
+    "0": "plushified:block/secb_plushie"
+  },
+  "render_type": "translusent"
+}

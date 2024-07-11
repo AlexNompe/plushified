@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/geminitay_plushie",
+  "textures": {
+    "all": "plushified:block/geminitay_plushie",
+    "particle": "plushified:block/geminitay_plushie",
+    "0": "plushified:block/geminitay_plushie"
+  },
+  "render_type": "translusent"
+}

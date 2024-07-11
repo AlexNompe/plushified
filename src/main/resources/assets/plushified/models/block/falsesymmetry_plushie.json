@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/falsesymmetry_plushie",
+  "textures": {
+    "all": "plushified:block/falsesymmetry_plushie",
+    "particle": "plushified:block/falsesymmetry_plushie",
+    "0": "plushified:block/falsesymmetry_plushie"
+  },
+  "render_type": "translusent"
+}

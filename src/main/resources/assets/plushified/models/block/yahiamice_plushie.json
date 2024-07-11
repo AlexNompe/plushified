@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/yahiamice_plushie",
+  "textures": {
+    "all": "plushified:block/yahiamice_plushie",
+    "particle": "plushified:block/yahiamice_plushie",
+    "0": "plushified:block/yahiamice_plushie"
+  },
+  "render_type": "translusent"
+}

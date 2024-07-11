@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/xisuma_plushie",
+  "textures": {
+    "all": "plushified:block/xisuma_plushie",
+    "particle": "plushified:block/xisuma_plushie",
+    "0": "plushified:block/xisuma_plushie"
+  },
+  "render_type": "translusent"
+}

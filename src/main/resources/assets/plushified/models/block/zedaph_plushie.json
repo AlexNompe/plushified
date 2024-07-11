@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/zedaph_plushie",
+  "textures": {
+    "all": "plushified:block/zedaph_plushie",
+    "particle": "plushified:block/zedaph_plushie",
+    "0": "plushified:block/zedaph_plushie"
+  },
+  "render_type": "translusent"
+}

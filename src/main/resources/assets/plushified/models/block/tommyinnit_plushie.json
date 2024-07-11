@@ -1,0 +1,9 @@
+{
+  "parent": "plushified:custom/tommyinnit_plushie",
+  "textures": {
+    "all": "plushified:block/tommyinnit_plushie",
+    "particle": "plushified:block/tommyinnit_plushie",
+    "0": "plushified:block/tommyinnit_plushie"
+  },
+  "render_type": "translusent"
+}

@@ -1481,22 +1481,6 @@ public class ModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
             @Override
             public Block getBlock() {
-                return OBSIDIANTIMEsixnine_PLUSHIE;
-            }
-            @Override
-            public JsonElement get() {
-                JsonObject json = new JsonObject();
-                JsonObject variants = new JsonObject();
-                JsonObject model = new JsonObject();
-                model.addProperty("model", Plushified.MOD_ID+":block/obsidiantime69_plushie");
-                variants.add("", model);
-                json.add("variants", variants);
-                return json;
-            }
-        });
-        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
-            @Override
-            public Block getBlock() {
                 return OBSI_PLUSHIE;
             }
             @Override
@@ -1657,22 +1641,6 @@ public class ModelGenerator extends FabricModelProvider {
         blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
             @Override
             public Block getBlock() {
-                return PWGOOD_PLUSHIE;
-            }
-            @Override
-            public JsonElement get() {
-                JsonObject json = new JsonObject();
-                JsonObject variants = new JsonObject();
-                JsonObject model = new JsonObject();
-                model.addProperty("model", Plushified.MOD_ID+":block/pwgood_plushie");
-                variants.add("", model);
-                json.add("variants", variants);
-                return json;
-            }
-        });
-        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
-            @Override
-            public Block getBlock() {
                 return PWGOOOD_PLUSHIE;
             }
             @Override
@@ -1813,6 +1781,1110 @@ public class ModelGenerator extends FabricModelProvider {
                 json.add("variants", variants);
                 return json;
             }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SBseventhreeseven_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/sb737_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SECB_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/secb_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SIRPILIGRIM_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/sirpiligrim_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SKEPPY_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/skeppy_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SLOVENOF_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/slovenof_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SMMASSH_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/smmassh_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SNEEGSNAG_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/sneegsnag_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SNRGIRAFFE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/snrgiraffe_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SPEPTICLE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/spepticle_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SPOKEISHERE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/spokeishere_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SQUIDDO_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/squiddo_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return STALIN_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/stalin_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TECHNO_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/techno_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return THEKLYDE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/theklyde_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return THETERRAIN_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/theterrain_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TOMMYINNIT_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/tommyinnit_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TUBBO_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/tubbo_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TUVIKU_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/tuviku_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VACMAKAC_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vacmakac_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VENAZAR_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/venazar_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VERYLOUDER_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/verylouder_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VIKKSTARonetwothree_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vikkstar123_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VIPSSS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vipsss_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VMUTED_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vmuted_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VORTthreeXDRAGON_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vort3xdragon_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return WEMMBU_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/wemmbu_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return WILBURSOOT_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/wilbursoot_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return WINSWEEP_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/winsweep_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return WOOGIEX_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/woogiex_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return YEAH_JARON_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/yeah_jaron_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ZAKVIEL_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/zakviel_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ZMEEC_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/zmeec_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ZMEEVIG_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/zmeevig_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return _HEO__PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/_heo__plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return eightONFIRE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/8onfire_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ASTRONYU_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/astronyu_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return BDOUBLEOonezerozero_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/bdoubleo100_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return CUBFANonethreefive_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/cubfan135_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return DOCMsevenseven_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/docm77_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return FALSESYMMETRY_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/falsesymmetry_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return FOWRzero_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/fowr0_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return FREAKGENIUS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/freakgenius_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return GEMINITAY_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/geminitay_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return GOODTIMESWITHSCAR_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/goodtimeswithscar_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return GRIAN_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/grian_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return HYPNOTIZD_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/hypnotizd_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return IJEVIN_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/ijevin_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return IMPULSESV_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/impulsesv_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ISKALLeightfive_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/iskall85_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return JOEHILLSSAYS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/joehillssays_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return KERALIS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/keralis_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return KIRICATTUS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/kiricattus_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return MORIYASHIINE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/moriyashiine_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return MUMBOJUMBO_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/mumbojumbo_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return NOXINTRUS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/noxintrus_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return PEARLESCENTMOON_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/pearlescentmoon_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return RENDOG_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/rendog_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SILLVIATV_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/sillviatv_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SKIZZLEMAN_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/skizzleman_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return SMALLISHBEANS_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/smallishbeans_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return STRESSMONSTERonezeroone_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/stressmonster101_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TALON_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/talon_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return TANGOTEK_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/tangotek_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return VINTAGEBEEF_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/vintagebeef_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return XBCRAFTED_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/xbcrafted_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return XISUMA_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/xisuma_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return YAHIAMICE_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/yahiamice_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ZEDAPH_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/zedaph_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
+        });
+        blockStateModelGenerator.blockStateCollector.accept(new BlockStateSupplier() {
+            @Override
+            public Block getBlock() {
+                return ZOMBIECLEO_PLUSHIE;
+            }
+            @Override
+            public JsonElement get() {
+                JsonObject json = new JsonObject();
+                JsonObject variants = new JsonObject();
+                JsonObject model = new JsonObject();
+                model.addProperty("model", Plushified.MOD_ID+":block/zombiecleo_plushie");
+                variants.add("", model);
+                json.add("variants", variants);
+                return json;
+            }
         }); //this comment is autogenerated
     }
 
@@ -1909,7 +2981,6 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(NIKI_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/niki_plushie")), Optional.empty()));
         itemModelGenerator.register(NOVIKONY_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/novikony_plushie")), Optional.empty()));
         itemModelGenerator.register(NUROFEN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/nurofen_plushie")), Optional.empty()));
-        itemModelGenerator.register(OBSIDIANTIMEsixnine_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/obsidiantime69_plushie")), Optional.empty()));
         itemModelGenerator.register(OBSI_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/obsi_plushie")), Optional.empty()));
         itemModelGenerator.register(OLYACHESAPIK_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/olyachesapik_plushie")), Optional.empty()));
         itemModelGenerator.register(OPTIMIST_EZZ_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/optimist_ezz_plushie")), Optional.empty()));
@@ -1920,7 +2991,6 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(PONK_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/ponk_plushie")), Optional.empty()));
         itemModelGenerator.register(PRINCEZAM_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/princezam_plushie")), Optional.empty()));
         itemModelGenerator.register(PURPLED_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/purpled_plushie")), Optional.empty()));
-        itemModelGenerator.register(PWGOOD_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/pwgood_plushie")), Optional.empty()));
         itemModelGenerator.register(PWGOOOD_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/pwgoood_plushie")), Optional.empty()));
         itemModelGenerator.register(QUACKITY_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/quackity_plushie")), Optional.empty()));
         itemModelGenerator.register(RfourTMAID_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/r4tmaid_plushie")), Optional.empty()));
@@ -1929,6 +2999,75 @@ public class ModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(RESOTA_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/resota_plushie")), Optional.empty()));
         itemModelGenerator.register(ROSHAMBOGAMES_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/roshambogames_plushie")), Optional.empty()));
         itemModelGenerator.register(SANHEZ_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sanhez_plushie")), Optional.empty()));
-        itemModelGenerator.register(SAPNAP_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sapnap_plushie")), Optional.empty())); //this comment is autogenerated
+        itemModelGenerator.register(SAPNAP_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sapnap_plushie")), Optional.empty()));
+        itemModelGenerator.register(SBseventhreeseven_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sb737_plushie")), Optional.empty()));
+        itemModelGenerator.register(SECB_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/secb_plushie")), Optional.empty()));
+        itemModelGenerator.register(SIRPILIGRIM_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sirpiligrim_plushie")), Optional.empty()));
+        itemModelGenerator.register(SKEPPY_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/skeppy_plushie")), Optional.empty()));
+        itemModelGenerator.register(SLOVENOF_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/slovenof_plushie")), Optional.empty()));
+        itemModelGenerator.register(SMMASSH_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/smmassh_plushie")), Optional.empty()));
+        itemModelGenerator.register(SNEEGSNAG_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sneegsnag_plushie")), Optional.empty()));
+        itemModelGenerator.register(SNRGIRAFFE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/snrgiraffe_plushie")), Optional.empty()));
+        itemModelGenerator.register(SPEPTICLE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/spepticle_plushie")), Optional.empty()));
+        itemModelGenerator.register(SPOKEISHERE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/spokeishere_plushie")), Optional.empty()));
+        itemModelGenerator.register(SQUIDDO_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/squiddo_plushie")), Optional.empty()));
+        itemModelGenerator.register(STALIN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/stalin_plushie")), Optional.empty()));
+        itemModelGenerator.register(TECHNO_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/techno_plushie")), Optional.empty()));
+        itemModelGenerator.register(THEKLYDE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/theklyde_plushie")), Optional.empty()));
+        itemModelGenerator.register(THETERRAIN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/theterrain_plushie")), Optional.empty()));
+        itemModelGenerator.register(TOMMYINNIT_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/tommyinnit_plushie")), Optional.empty()));
+        itemModelGenerator.register(TUBBO_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/tubbo_plushie")), Optional.empty()));
+        itemModelGenerator.register(TUVIKU_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/tuviku_plushie")), Optional.empty()));
+        itemModelGenerator.register(VACMAKAC_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vacmakac_plushie")), Optional.empty()));
+        itemModelGenerator.register(VENAZAR_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/venazar_plushie")), Optional.empty()));
+        itemModelGenerator.register(VERYLOUDER_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/verylouder_plushie")), Optional.empty()));
+        itemModelGenerator.register(VIKKSTARonetwothree_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vikkstar123_plushie")), Optional.empty()));
+        itemModelGenerator.register(VIPSSS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vipsss_plushie")), Optional.empty()));
+        itemModelGenerator.register(VMUTED_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vmuted_plushie")), Optional.empty()));
+        itemModelGenerator.register(VORTthreeXDRAGON_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vort3xdragon_plushie")), Optional.empty()));
+        itemModelGenerator.register(WEMMBU_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/wemmbu_plushie")), Optional.empty()));
+        itemModelGenerator.register(WILBURSOOT_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/wilbursoot_plushie")), Optional.empty()));
+        itemModelGenerator.register(WINSWEEP_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/winsweep_plushie")), Optional.empty()));
+        itemModelGenerator.register(WOOGIEX_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/woogiex_plushie")), Optional.empty()));
+        itemModelGenerator.register(YEAH_JARON_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/yeah_jaron_plushie")), Optional.empty()));
+        itemModelGenerator.register(ZAKVIEL_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/zakviel_plushie")), Optional.empty()));
+        itemModelGenerator.register(ZMEEC_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/zmeec_plushie")), Optional.empty()));
+        itemModelGenerator.register(ZMEEVIG_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/zmeevig_plushie")), Optional.empty()));
+        itemModelGenerator.register(_HEO__PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/_heo__plushie")), Optional.empty()));
+        itemModelGenerator.register(eightONFIRE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/8onfire_plushie")), Optional.empty()));
+        itemModelGenerator.register(ASTRONYU_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/astronyu_plushie")), Optional.empty()));
+        itemModelGenerator.register(BDOUBLEOonezerozero_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/bdoubleo100_plushie")), Optional.empty()));
+        itemModelGenerator.register(CUBFANonethreefive_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/cubfan135_plushie")), Optional.empty()));
+        itemModelGenerator.register(DOCMsevenseven_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/docm77_plushie")), Optional.empty()));
+        itemModelGenerator.register(FALSESYMMETRY_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/falsesymmetry_plushie")), Optional.empty()));
+        itemModelGenerator.register(FOWRzero_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/fowr0_plushie")), Optional.empty()));
+        itemModelGenerator.register(FREAKGENIUS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/freakgenius_plushie")), Optional.empty()));
+        itemModelGenerator.register(GEMINITAY_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/geminitay_plushie")), Optional.empty()));
+        itemModelGenerator.register(GOODTIMESWITHSCAR_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/goodtimeswithscar_plushie")), Optional.empty()));
+        itemModelGenerator.register(GRIAN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/grian_plushie")), Optional.empty()));
+        itemModelGenerator.register(HYPNOTIZD_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/hypnotizd_plushie")), Optional.empty()));
+        itemModelGenerator.register(IJEVIN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/ijevin_plushie")), Optional.empty()));
+        itemModelGenerator.register(IMPULSESV_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/impulsesv_plushie")), Optional.empty()));
+        itemModelGenerator.register(ISKALLeightfive_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/iskall85_plushie")), Optional.empty()));
+        itemModelGenerator.register(JOEHILLSSAYS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/joehillssays_plushie")), Optional.empty()));
+        itemModelGenerator.register(KERALIS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/keralis_plushie")), Optional.empty()));
+        itemModelGenerator.register(KIRICATTUS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/kiricattus_plushie")), Optional.empty()));
+        itemModelGenerator.register(MORIYASHIINE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/moriyashiine_plushie")), Optional.empty()));
+        itemModelGenerator.register(MUMBOJUMBO_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/mumbojumbo_plushie")), Optional.empty()));
+        itemModelGenerator.register(NOXINTRUS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/noxintrus_plushie")), Optional.empty()));
+        itemModelGenerator.register(PEARLESCENTMOON_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/pearlescentmoon_plushie")), Optional.empty()));
+        itemModelGenerator.register(RENDOG_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/rendog_plushie")), Optional.empty()));
+        itemModelGenerator.register(SILLVIATV_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/sillviatv_plushie")), Optional.empty()));
+        itemModelGenerator.register(SKIZZLEMAN_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/skizzleman_plushie")), Optional.empty()));
+        itemModelGenerator.register(SMALLISHBEANS_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/smallishbeans_plushie")), Optional.empty()));
+        itemModelGenerator.register(STRESSMONSTERonezeroone_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/stressmonster101_plushie")), Optional.empty()));
+        itemModelGenerator.register(TALON_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/talon_plushie")), Optional.empty()));
+        itemModelGenerator.register(TANGOTEK_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/tangotek_plushie")), Optional.empty()));
+        itemModelGenerator.register(VINTAGEBEEF_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/vintagebeef_plushie")), Optional.empty()));
+        itemModelGenerator.register(XBCRAFTED_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/xbcrafted_plushie")), Optional.empty()));
+        itemModelGenerator.register(XISUMA_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/xisuma_plushie")), Optional.empty()));
+        itemModelGenerator.register(YAHIAMICE_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/yahiamice_plushie")), Optional.empty()));
+        itemModelGenerator.register(ZEDAPH_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/zedaph_plushie")), Optional.empty()));
+        itemModelGenerator.register(ZOMBIECLEO_PLUSHIE.asItem(), new Model(Optional.of(Identifier.of(Plushified.MOD_ID,"block/zombiecleo_plushie")), Optional.empty())); //this comment is autogenerated
     }
 }
