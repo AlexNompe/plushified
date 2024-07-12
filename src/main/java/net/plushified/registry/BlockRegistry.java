@@ -20,6 +20,7 @@ import net.minecraft.world.World;
 import net.plushified.Plushified;
 import net.plushified.block.*;
 import net.plushified.block.entity.PlushieBlockEntity;
+import net.plushified.registry.BlockEntityRegistry.*;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
