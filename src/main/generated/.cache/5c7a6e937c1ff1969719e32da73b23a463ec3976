@@ -1,4 +1,4 @@
-// 1.21	2024-07-10T20:18:44.0578206	Plushified/Block Loot Tables
+// 1.21	2024-07-15T00:20:08.1195453	Plushified/Block Loot Tables
 be40c232d44fe36d9b9ae3808abb93176561803a data\plushified\loot_table\blocks\nagibayka_plushie.json
 4d79c25ce9d66d34ddb676a85d16766e615f4eda data\plushified\loot_table\blocks\jumperwho_plushie.json
 bab0abefeebd558cde3bcbcb4313fd22a8dee80d data\plushified\loot_table\blocks\clownpierce_plushie.json
@@ -6,8 +6,8 @@ dc8c4187bc32703422e3803888b838a5ae1a249e data\plushified\loot_table\blocks\squid
 90d398d2649b22227dea3339c46e0867799167e8 data\plushified\loot_table\blocks\winsweep_plushie.json
 563129cd2d53ed3a9f665653f0d08ebc9ba3d08a data\plushified\loot_table\blocks\dlz_plushie.json
 7e6df1119c00e82eaebf445f245555ce239cfd01 data\plushified\loot_table\blocks\zmeevig_plushie.json
-0c64aee26403c10c505f1c75808e09b516dfd8a6 data\plushified\loot_table\blocks\eboni_plushie.json
 356af42e458d15fad0b692e15d3ee2e93dd2ba97 data\plushified\loot_table\blocks\badboyhalo_plushie.json
+0c64aee26403c10c505f1c75808e09b516dfd8a6 data\plushified\loot_table\blocks\eboni_plushie.json
 db0e89438b4f9613c6dced6cdcdcbfb8cbf14392 data\plushified\loot_table\blocks\fereden_plushie.json
 269b03e7a4bb943b44b8a4248adeb1ca4228947e data\plushified\loot_table\blocks\jeremi_plushie.json
 afd4d624f0e6c8eb8cee7343a2215e3c3a5c3b35 data\plushified\loot_table\blocks\antfrost_plushie.json
@@ -29,10 +29,11 @@ a739b611f2db3abb66f747a03edd4827a699d1ae data\plushified\loot_table\blocks\marts
 73658fcf910e3e941570b39c6ab9f82a6f03b4f7 data\plushified\loot_table\blocks\diansu_plushie.json
 db0758fe417cfc6ee69a650d105cd2ea75ed50c8 data\plushified\loot_table\blocks\theklyde_plushie.json
 2e06fb0c6974d3aaafcf247adc5af649b16e2613 data\plushified\loot_table\blocks\mapicc_plushie.json
+d7dc558bd7a81deea4b084459add17d895038f92 data\plushified\loot_table\blocks\doublea06_plushie.json
 6c9550bda2374547d605336e4988bfd35db7310a data\plushified\loot_table\blocks\hannahxxrose_plushie.json
 afcc68dc53f618d2f42e7265c7942cd38c63760e data\plushified\loot_table\blocks\zmeec_plushie.json
-acb8dab65230fd30273beb999a36b23b534f2ae1 data\plushified\loot_table\blocks\smallishbeans_plushie.json
 a52bde88777d3d5be74c1d49859a9d7b38530874 data\plushified\loot_table\blocks\flamefrags_plushie.json
+acb8dab65230fd30273beb999a36b23b534f2ae1 data\plushified\loot_table\blocks\smallishbeans_plushie.json
 9fea57baf71ec72d09422d39c5885d8f75d8c5b0 data\plushified\loot_table\blocks\mask_plushie.json
 0f72c068fc30e1cd1077cc7dfd9c08a321243bfe data\plushified\loot_table\blocks\brim_plushie.json
 1fa87522eee80eabf3cbc18cc5caf6668aac97bf data\plushified\loot_table\blocks\eightsidedsquare_plushie.json

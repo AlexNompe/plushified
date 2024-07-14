@@ -198,6 +198,7 @@ public class BlockTagGenerator extends FabricTagProvider.BlockTagProvider{
                 .add(XISUMA_PLUSHIE)
                 .add(YAHIAMICE_PLUSHIE)
                 .add(ZEDAPH_PLUSHIE)
-                .add(ZOMBIECLEO_PLUSHIE);
+                .add(ZOMBIECLEO_PLUSHIE)
+                .add(DOUBLEAzerosix_PLUSHIE);
     }
 }
