@@ -188,7 +188,7 @@ public class EnglishTranslationGenerator extends FabricLanguageProvider {
         translationBuilder.add(SILLVIATV_PLUSHIE, "Sillviatv plushie");
         translationBuilder.add(SKIZZLEMAN_PLUSHIE, "Skizzleman plushie");
         translationBuilder.add(SMALLISHBEANS_PLUSHIE, "Smallishbeans plushie");
-        translationBuilder.add(STRESSMONSTERonezeroone_PLUSHIE, "Stressmonsteronezeroone plushie");
+        translationBuilder.add(STRESSMONSTERonezeroone_PLUSHIE, "Stressmonster101 plushie");
         translationBuilder.add(TALON_PLUSHIE, "Talon plushie");
         translationBuilder.add(TANGOTEK_PLUSHIE, "Tangotek plushie");
         translationBuilder.add(VINTAGEBEEF_PLUSHIE, "Vintagebeef plushie");
